@@ -1,0 +1,16 @@
+.InfoHeader {
+    padding: 10px 20px;
+    height: 200px;
+    display: flex;
+}
+
+.InfoLogo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.InfoCart {
+    width: 180px;
+    background-color: orange;
+}

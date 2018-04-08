@@ -1,0 +1,32 @@
+.InfoCentral {
+    width: 576px;
+    display: flex;
+    padding: 12px 0;
+}
+
+.InfoDiscount {
+    width: 30%;
+}
+
+.StrongText {
+    font-weight: 600;
+}
+
+.ItalicText {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.InfoDiscount p,
+.InfoDelivery p,
+.InfoMinimal p {
+    padding-top: 10px;
+}
+
+.InfoDelivery {
+    width: 35%;
+}
+
+.InfoMinimal {
+    width: 30%;
+}
