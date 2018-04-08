@@ -1,6 +1,7 @@
 .InfoHeader {
     padding: 10px 20px;
-    height: 200px;
+    height: 212px;
+    /*background-color: #aaa;*/
     display: flex;
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './TopLinks.css';
 
-const topLinks = (props) => (
+const topLinks = () => (
   <div className={classes.TopLinks}>
     <a href="/">О нас</a>
     <a href="/">Акции</a>
