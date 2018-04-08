@@ -1,0 +1,19 @@
+.InfoButton {
+    background-color: #fff;
+    margin-top: 8px;
+    padding: 10px 8px;
+    text-align: center;
+    color: #37af5a;
+    border: 1px solid #37af5a;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    transition: .4s;
+}
+
+.InfoButton:hover {
+    background-color: #37af5a;
+    color: #fff;
+    cursor: pointer;
+}

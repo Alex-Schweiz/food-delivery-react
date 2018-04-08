@@ -1,0 +1,15 @@
+.InfoBasket {
+    background-color: #37af5a;
+    margin-top: 4px;
+    padding: 14px 16px;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.InfoBasket a {
+    color: #fff;
+}
+.InfoBasket p {
+    margin-top: 4px;
+}
