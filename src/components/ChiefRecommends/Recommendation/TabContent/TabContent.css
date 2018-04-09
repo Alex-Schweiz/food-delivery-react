@@ -2,4 +2,21 @@
     margin: 24px 8px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.TabShowMore {
+    width: 100%;
+    text-align: center;
+}
+
+.TabShowMore button {
+    background-color: #37af5a;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 8px 28px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
 }

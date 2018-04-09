@@ -1,0 +1,43 @@
+.ReviewsHome {
+    margin-top: 8px;
+    margin-bottom: 800px;
+    background-color: #f1f1f1;
+}
+
+.ReviewsHome > div {
+    width: 100%;
+}
+
+.ReviewsHome h2 {
+    color: #37af5a;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.ReviewsHome button {
+    float: right;
+    background-color: #fff;
+    font-weight: 600;
+    font-style: italic;
+    color: #37af5a;
+    padding: 8px 16px;
+    border: 2px solid #37af5a;
+    border-radius: 4px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.ReviewsHome button:hover {
+    background-color: #37af5a;
+    color: #fff;
+}
+
+.ReadAll a {
+    color: #37af5a;
+    font-size: 15px;
+}
+
+.ReadAll a:hover {
+    text-decoration: none;
+}

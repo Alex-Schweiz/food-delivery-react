@@ -1,0 +1,37 @@
+.ReviewItem {
+    width: 33%;
+}
+
+.ReviewItem h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: rgb(48,48,48);
+}
+
+.ReviewItem blockquote {
+    margin: 20px 12px;
+    padding: 10px 30px;
+    background-color: #fff;
+    line-height: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.22);
+}
+
+.ReviewItem p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.ReviewAnswer {
+    margin: 32px 0 32px 24px;
+}
+
+.ReviewAnswer blockquote {
+    padding: 12px 8px;
+}
+
+.ReviewAnswer img{
+    display: inline-block;
+    float: left;
+    padding-right: 4px;
+}

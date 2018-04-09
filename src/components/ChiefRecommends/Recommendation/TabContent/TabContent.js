@@ -9,6 +9,9 @@ const tabContent = (props) => (
     <DishCard />
     <DishCard />
     <DishCard />
+    <div className={classes.TabShowMore}>
+      <button>Перейти к категории</button>
+    </div>
   </div>
 );
 
