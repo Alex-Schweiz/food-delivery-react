@@ -1,0 +1,79 @@
+.Footer {
+    border-top: 6px solid #37af5a;
+    margin: 40px 4px 40px;
+    padding-top: 32px;
+    display: flex;
+}
+
+.FooterLogo {
+    width: 18%;
+    text-align: center;
+}
+
+.FooterLogo img {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.FooterLogo p {
+    width: 80%;
+    color: #37af5a;
+    font-size: 14px;
+}
+
+.FooterPhones {
+    width: 30%;
+    text-align: center;
+}
+
+.FooterPhones p {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.FooterPhones button {
+    width: 65%;
+    padding: 8px;
+    margin-top: 12px;
+    border: 1px solid #37af5a;
+    border-radius: 8px;
+    color: #37af5a;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.FooterPhones button:hover {
+    color: #fff;
+    background-color: #37af5a;
+}
+
+.FooterMenu {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FooterMenu a {
+    color: #37af5a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.FooterMenu a:hover {
+    text-decoration: underline;
+}
+
+.FooterInfo {
+    width: 25%;
+}
+
+.FooterInfo p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}

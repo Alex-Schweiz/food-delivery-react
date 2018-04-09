@@ -6,6 +6,7 @@ import RedMenu from '../RedMenu/RedMenu';
 import SliderShow from '../SliderShow/SliderShow';
 import Recommendation from '../ChiefRecommends/Recommendation/Recommendation';
 import ReviewsHome from '../ReviewsHome/ReviewsHome';
+import Footer from '../Footer/Footer';
 
 const layout = () => (
   <Aux>
@@ -16,7 +17,7 @@ const layout = () => (
       <Recommendation />
       <ReviewsHome />
     </main>
-    <div>Footer</div>
+    <Footer />
   </Aux>
 );
 
