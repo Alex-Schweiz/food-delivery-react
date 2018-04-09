@@ -1,0 +1,5 @@
+.TabContent {
+    margin: 24px 8px;
+    display: flex;
+    justify-content: space-between;
+}

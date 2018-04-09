@@ -2,6 +2,7 @@ import React, { Component }  from 'react';
 
 import classes from './Recommendation.css';
 import RecommendationTab from './RecommendationTab/RecommendationTab';
+import TabContent from './TabContent/TabContent'
 
 class Recommendation extends Component {
   state = {
@@ -30,6 +31,7 @@ class Recommendation extends Component {
         <RecommendationTab
           selectedCategory={this.selectedCategoryHandler}
           categories={this.state.tabCategories} />
+        <TabContent activeCategory={this.state.activeCategory} />
       </div>
     )
   }
