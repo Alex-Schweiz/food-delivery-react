@@ -1,0 +1,30 @@
+.RecommendationTab {
+}
+
+.Tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.Tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 15px;
+    color: #37af5a;
+}
+
+.Tab button:hover {
+    background-color: #37af5a;
+    color: #fff;
+}
+
+.TabLink {
+
+}

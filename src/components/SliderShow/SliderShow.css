@@ -1,0 +1,45 @@
+.SliderShow {
+    width: 980px;
+    height: 360px;
+    position: relative;
+    margin: auto;
+}
+
+.Prev, .Next {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    padding: 12px 18px;
+    margin-top: -22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border: 3px solid #fff;
+}
+
+.Next {
+    right: 4px;
+    border-radius: 50%;
+}
+
+.Prev {
+    left: 4px;
+    border-radius: 50%;
+}
+
+.Prev:hover, .Next:hover {
+    color: red;
+    border-color: red;
+}
+
+.ActiveImage {
+    display: block;
+    opacity: 1;
+}
+
+.InactiveImage {
+    display: none;
+    opacity: 0;
+}
