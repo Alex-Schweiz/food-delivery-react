@@ -24,7 +24,9 @@
     background-color: #222;
     padding: 12px 16px;
     height: 28px;
-    /*display: none;*/
+    width: 968px;
+    position: fixed;
+    z-index: 10;
 }
 
 .BlackMenu a {
