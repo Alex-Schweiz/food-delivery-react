@@ -5,11 +5,11 @@ import classes from './RecommendationTab.css';
 const recommendationTab = (props) => (
   <div>
     <div className={classes.Tab}>
-      {props.categories.map((category, i) => (
+      {props.categories.map(category => (
         <button
-          key={i}
-          onClick={() => props.selectedCategory(i)}
-          className={classes.TabLink}>{category}</button>
+          key={category.id}
+          onClick={() => props.selectedCategory(category.id)}
+          className={classes.TabLink}>{category.title}</button>
       ))}
     </div>
   </div>

@@ -4,15 +4,19 @@ import classes from './DishCard.css';
 
 const dishCard = (props) => (
   <div className={classes.DishCard}>
-    <img src="/img/card/01.jpg" alt="01"/>
+    <img src={props.dishContent.img} alt="01"/>
     <div className={classes.DishInfo}>
-      <p className={classes.DishTitle}>Супер сыр</p>
-      <p>8 кусочков</p>
+      <p className={classes.DishTitle}>{props.dishContent.title}</p>
+      {
+        props.dishContent.numberOfPieces ? <p>{props.dishContent.numberOfPieces} кусочков</p> : ''
+      }
       <div className={classes.DishAction}>
-        <p>107 грн</p>
+        <p>{props.dishContent.price} грн</p>
         <button>Заказать</button>
       </div>
-      <p className={classes.DishDescription}>Нежная пицца со сливочным соусом, томатами, сыром моцарелла, пармезаном, охотничьими сосисками, рукколой, паприкой и орегано.</p>
+      <p className={classes.DishDescription}>
+        {props.dishContent.description}
+      </p>
     </div>
   </div>
 );
