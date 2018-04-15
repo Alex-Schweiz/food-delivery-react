@@ -1,0 +1,25 @@
+.Breadcrumbs {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+.Breadcrumbs li {
+    display: inline;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.BreadcrumbAnchor {
+    color: #37af5a;
+    text-decoration: none;
+}
+
+.BreadcrumbActive {
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.BreadcrumbAnchor:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,21 @@
+.MenuPage h1 {
+    color: #303030;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.MenuSortablePanel {
+    height: 42px;
+    margin: 20px 2px;
+    background-color: #fff;
+}
+
+.DishesContainer {
+    margin: 24px 8px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}

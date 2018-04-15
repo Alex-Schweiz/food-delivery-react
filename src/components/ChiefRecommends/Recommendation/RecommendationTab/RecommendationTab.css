@@ -1,6 +1,3 @@
-.RecommendationTab {
-}
-
 .Tab {
     overflow: hidden;
     border: 1px solid #ccc;
@@ -23,8 +20,4 @@
 .Tab button:hover {
     background-color: #37af5a;
     color: #fff;
-}
-
-.TabLink {
-
 }

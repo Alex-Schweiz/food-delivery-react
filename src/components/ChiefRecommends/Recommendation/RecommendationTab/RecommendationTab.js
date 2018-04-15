@@ -9,7 +9,7 @@ const recommendationTab = (props) => (
         <button
           key={category.id}
           onClick={() => props.selectedCategory(category.id)}
-          className={classes.TabLink}>{category.title}</button>
+          >{category.title}</button>
       ))}
     </div>
   </div>
