@@ -7,9 +7,7 @@ const dishCard = (props) => (
     <img src={props.dishContent.img} alt="01"/>
     <div className={classes.DishInfo}>
       <p className={classes.DishTitle}>{props.dishContent.title}</p>
-      {
-        props.dishContent.numberOfPieces ? <p>{props.dishContent.numberOfPieces} кусочков</p> : ''
-      }
+      {props.dishContent.numberOfPieces ? <p>{props.dishContent.numberOfPieces} кусочков</p> : ''}
       <div className={classes.DishAction}>
         <p>{props.dishContent.price} грн</p>
         <button>Заказать</button>

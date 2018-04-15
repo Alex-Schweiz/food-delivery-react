@@ -4,8 +4,6 @@
     <list default="true" id="8009cd3f-5bae-4d47-b9f8-f0c31cd09a14" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/Recommendation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/Recommendation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/RecommendationTab/RecommendationTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/RecommendationTab/RecommendationTab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/TabContent/TabContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/TabContent/TabContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DishCard/DishCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DishCard/DishCard.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,43 +21,34 @@
       <file leaf-file-name="RedMenu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/RedMenu/RedMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="3150">
               <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
-              <folding>
-                <element signature="e#187#928#0" />
-                <element signature="e#948#1440#0" />
-                <element signature="e#1451#1532#0" />
-                <element signature="e#1655#1673#0" />
-                <element signature="e#2027#2045#0" />
-                <element signature="e#2193#2211#0" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recommendation.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Recommendation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/Recommendation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="68" column="133" selection-start-line="68" selection-start-column="133" selection-end-line="68" selection-end-column="133" />
+            <state relative-caret-position="-725">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
-                <element signature="e#485#503#0" />
-                <element signature="e#3419#4736#0" />
-                <element signature="e#4747#6064#0" />
-                <element signature="e#6068#7385#0" />
-                <element signature="e#7396#8713#0" />
-                <element signature="e#8731#10048#0" />
-                <element signature="e#10052#11369#0" />
+                <element signature="e#763#2080#0" />
+                <element signature="e#2091#2355#0" />
+                <element signature="e#2366#3122#0" />
+                <element signature="e#3133#4210#0" />
+                <element signature="e#4221#5104#0" />
+                <element signature="e#5115#5322#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DishCard.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DishCard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/DishCard/DishCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="175">
+              <caret line="9" column="97" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -137,8 +126,8 @@
         <option value="$PROJECT_DIR$/src/components/RedMenu/RedMenu.js" />
         <option value="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/RecommendationTab/RecommendationTab.js" />
         <option value="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/TabContent/TabContent.js" />
-        <option value="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/Recommendation.js" />
         <option value="$PROJECT_DIR$/src/components/DishCard/DishCard.js" />
+        <option value="$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/Recommendation.js" />
       </list>
     </option>
   </component>
@@ -163,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,22 +177,6 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilefood-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilefood-react" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="desserts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smilefood-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smilefood-react" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-              <item name="pizza" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smilefood-react" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +233,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +274,8 @@
       <workItem from="1523260759276" duration="15811000" />
       <workItem from="1523644070439" duration="5267000" />
       <workItem from="1523683851872" duration="2408000" />
-      <workItem from="1523715306333" duration="5639000" />
+      <workItem from="1523715306333" duration="9548000" />
+      <workItem from="1523775271758" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="Added Slider and Tabs placeholders">
       <created>1523260525220</created>
@@ -338,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523722249324</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added basic dynamic tabs">
+      <created>1523725152162</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523725152162</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38591000" />
+    <option name="totallyTimeSpent" value="43740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -388,11 +369,12 @@
     <MESSAGE value="Added Reviews Component" />
     <MESSAGE value="Added Footer Component" />
     <MESSAGE value="Fixed red and black menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed red and black menu" />
+    <MESSAGE value="Added basic dynamic tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic dynamic tabs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -680,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,16 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RedMenu/RedMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="3150">
           <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
-          <folding>
-            <element signature="e#187#928#0" />
-            <element signature="e#948#1440#0" />
-            <element signature="e#1451#1532#0" />
-            <element signature="e#1655#1673#0" />
-            <element signature="e#2027#2045#0" />
-            <element signature="e#2193#2211#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,26 +721,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/Recommendation.js">
+    <entry file="file://$PROJECT_DIR$/src/components/DishCard/DishCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="68" column="133" selection-start-line="68" selection-start-column="133" selection-end-line="68" selection-end-column="133" />
-          <folding>
-            <element signature="e#485#503#0" />
-            <element signature="e#3419#4736#0" />
-            <element signature="e#4747#6064#0" />
-            <element signature="e#6068#7385#0" />
-            <element signature="e#7396#8713#0" />
-            <element signature="e#8731#10048#0" />
-            <element signature="e#10052#11369#0" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="9" column="97" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DishCard/DishCard.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ChiefRecommends/Recommendation/Recommendation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="-725">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#763#2080#0" />
+            <element signature="e#2091#2355#0" />
+            <element signature="e#2366#3122#0" />
+            <element signature="e#3133#4210#0" />
+            <element signature="e#4221#5104#0" />
+            <element signature="e#5115#5322#0" />
+          </folding>
         </state>
       </provider>
     </entry>
