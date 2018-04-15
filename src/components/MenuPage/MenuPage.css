@@ -12,6 +12,12 @@
     background-color: #fff;
 }
 
+.MenuSortablePanel select,
+.MenuSortablePanel p {
+    display: inline-block;
+    margin-right: 12px;
+}
+
 .DishesContainer {
     margin: 24px 8px;
     display: flex;

@@ -65,7 +65,7 @@ class menuPage extends Component {
     this.setState({sortBy: event.target.value});
     if (event.target.value === 'priceAsc') {
       tempDishes.sort((a, b) => {
-        if (a.price > b.price) {
+        if (a.price < b.price) {
           return 1;
         }
       });
@@ -73,7 +73,7 @@ class menuPage extends Component {
     }
     if (event.target.value === 'priceDesc') {
       tempDishes.sort((a, b) => {
-        if (a.price < b.price) {
+        if (a.price > b.price) {
           return 1;
         }
       });
@@ -92,9 +92,9 @@ class menuPage extends Component {
         <Breadcrumbs/>
         <h1>Пицца</h1>
         <div className={classes.MenuSortablePanel}>
-          <h2>Сортировать по</h2>
+          <p>Сортировать по</p>
           <select id="sorting" onChange={this.changeSorting}>
-            <option value="default">Сортировать...</option>
+            <option value="default">умолчанию</option>
             <option value="priceAsc">по убыванию</option>
             <option value="priceDesc">по возрастанию</option>
           </select>
