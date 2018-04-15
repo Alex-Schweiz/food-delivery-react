@@ -35,22 +35,55 @@ class menuPage extends Component {
         title: "4 мяса",
         img: "/img/menu/pizza/four-meats.jpg",
         numberOfPieces: 8,
-        price: 123,
+        price: 88,
         description: "Мясная пицца с томатным соусом, копченым куриным филе, охотничьими сосисками, салями, томатами, пармезаном, ветчиной и сыром моцарелла, приправленная итальянскими травами."
       }, {
         title: "4 мяса",
         img: "/img/menu/pizza/four-meats.jpg",
         numberOfPieces: 8,
-        price: 123,
+        price: 183,
         description: "Мясная пицца с томатным соусом, копченым куриным филе, охотничьими сосисками, салями, томатами, пармезаном, ветчиной и сыром моцарелла, приправленная итальянскими травами."
       }, {
         title: "4 мяса",
         img: "/img/menu/pizza/four-meats.jpg",
         numberOfPieces: 8,
-        price: 123,
+        price: 150,
         description: "Мясная пицца с томатным соусом, копченым куриным филе, охотничьими сосисками, салями, томатами, пармезаном, ветчиной и сыром моцарелла, приправленная итальянскими травами."
       }
-    ]
+    ],
+    defaultDishesOrder: [],
+    sortBy: 'default'
+  };
+
+  componentWillMount() {
+    const menuDishes = this.state.menuDishes.slice();
+    this.setState({defaultDishesOrder: menuDishes});
+  }
+
+  changeSorting = (event) => {
+    let tempDishes = this.state.menuDishes;
+    this.setState({sortBy: event.target.value});
+    if (event.target.value === 'priceAsc') {
+      tempDishes.sort((a, b) => {
+        if (a.price > b.price) {
+          return 1;
+        }
+      });
+      this.setState({menuDishes: tempDishes});
+    }
+    if (event.target.value === 'priceDesc') {
+      tempDishes.sort((a, b) => {
+        if (a.price < b.price) {
+          return 1;
+        }
+      });
+      this.setState({menuDishes: tempDishes});
+    }
+    if (event.target.value === 'default') {
+      const menuDishes = this.state.defaultDishesOrder.slice();
+      this.setState({menuDishes: menuDishes});
+    }
+    console.log(event.target.value);
   };
 
   render() {
@@ -60,6 +93,11 @@ class menuPage extends Component {
         <h1>Пицца</h1>
         <div className={classes.MenuSortablePanel}>
           <h2>Сортировать по</h2>
+          <select id="sorting" onChange={this.changeSorting}>
+            <option value="default">Сортировать...</option>
+            <option value="priceAsc">по убыванию</option>
+            <option value="priceDesc">по возрастанию</option>
+          </select>
         </div>
         <div className={classes.DishesContainer}>
           {this.state.menuDishes.map((dish,i) => (
