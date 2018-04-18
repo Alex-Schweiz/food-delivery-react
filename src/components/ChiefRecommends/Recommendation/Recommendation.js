@@ -39,9 +39,9 @@ class Recommendation extends Component {
     isLoading: true
   };
 
-  componentDidMount() {
+  componentWillMount() {
     this.setState({isLoading: true});
-    this.getCurrentTabContent(1)
+    this.getCurrentTabContent(1);
   }
 
   getCurrentTabContent(id) {
