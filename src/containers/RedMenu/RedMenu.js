@@ -11,7 +11,7 @@ class redMenu extends Component {
       title: 'Пицца',
       childrenCategory: null
     }, {
-      link: '/menu/pizza',
+      link: '/cuisine/japanese',
       title: 'Японская кухня',
       childrenCategory: 1
     }, {

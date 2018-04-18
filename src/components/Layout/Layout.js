@@ -3,9 +3,10 @@ import { Route } from "react-router-dom";
 
 import Aux from '../../hoc/Auxx/Auxx';
 import Header from '../Header/Header';
-import RedMenu from '../RedMenu/RedMenu';
+import RedMenu from '../../containers/RedMenu/RedMenu';
 import HomePage from '../HomePage/HomePage';
-import MenuPage from '../MenuPage/MenuPage';
+import MenuPage from '../../containers/MenuPage/MenuPage';
+import CuisinePage from '../../containers/CuisinePage/CuisinePage';
 import Footer from '../Footer/Footer';
 
 const layout = () => (
@@ -14,6 +15,7 @@ const layout = () => (
     <RedMenu />
     <Route exact path='/' component={HomePage}/>
     <Route path='/menu/pizza' component={MenuPage}/>
+    <Route path='/cuisine/japanese' component={CuisinePage}/>
     <Footer />
   </Aux>
 );

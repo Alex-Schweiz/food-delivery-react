@@ -2,10 +2,10 @@ import React from 'react';
 
 import classes from './Footer.css';
 
-const footer = (props) => (
+const footer = () => (
   <div className={classes.Footer}>
     <div className={classes.FooterLogo}>
-      <img src="/img/logo3.png" alt="03"/>
+      <img src="/img/logo.png" alt="03"/>
       <p>Мы делаем моменты особенными!</p>
     </div>
     <div className={classes.FooterPhones}>

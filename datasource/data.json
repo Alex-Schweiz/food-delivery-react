@@ -271,7 +271,7 @@
     "japanese": {
       "sets": {
         "title": "Сеты",
-        "img": "imgpath",
+        "img": "/img/categories/japanese/sets.jpg",
         "content": [
           {
             "title": "Сет Сайтама",
@@ -338,7 +338,7 @@
       },
       "rolls": {
         "title": "Роллы",
-        "img": "imgpath",
+        "img": "/img/categories/japanese/rolls.jpg",
         "content":  [
           {
             "title": "Куби",
@@ -405,7 +405,7 @@
       },
       "salads": {
         "title": "Салаты",
-        "img": "imgpath",
+        "img": "/img/categories/japanese/salads.jpg",
         "content": [
           {
             "title": "Идзен",
@@ -442,7 +442,7 @@
       },
       "soups": {
         "title": "Супы",
-        "img": "imgpath",
+        "img": "/img/categories/japanese/soups.jpg",
         "content":  [
           {
             "title": "Мисо с лососем и тофу",
@@ -479,7 +479,7 @@
       },
       "pasta": {
         "title": "Лапша",
-        "img": "imgpath",
+        "img": "/img/categories/japanese/pasta.jpg",
         "content":  [
           {
             "title": "Лапша Омаке",
@@ -545,8 +545,8 @@
         ]
       },
       "rice": {
-        "title": "Рис",
-        "img": "imgpath",
+        "title": "Горячий рис",
+        "img": "/img/categories/japanese/rice.jpg",
         "content":  [
           {
             "title": "Рис Кирей",
@@ -612,8 +612,8 @@
         ]
       },
       "sushi": {
-        "title": "Рис",
-        "img": "imgpath",
+        "title": "Cуши",
+        "img": "/img/categories/japanese/sushi.jpg",
         "content": [
           {
             "title": "Гункан с жареным лососем",
