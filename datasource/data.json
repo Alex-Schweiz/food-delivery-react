@@ -144,9 +144,102 @@
       }
     ]
   },
-  "menu" : {
-    "pizza" : [
-      {
+  "categories": {
+    "japanese": {
+      "sets": {
+        "title": "Сеты",
+        "img": "/img/categories/japanese/sets.jpg"
+      },
+      "rolls": {
+        "title": "Роллы",
+        "img": "/img/categories/japanese/rolls.jpg"
+      },
+      "salads": {
+        "title": "Салаты",
+        "img": "/img/categories/japanese/salads.jpg"
+      },
+      "soups": {
+        "title": "Супы",
+        "img": "/img/categories/japanese/soups.jpg"
+      },
+      "pasta": {
+        "title": "Лапша",
+        "img": "/img/categories/japanese/pasta.jpg"
+      },
+      "rice": {
+        "title": "Горячий рис",
+        "img": "/img/categories/japanese/rice.jpg"
+      },
+      "sushi": {
+        "title": "Cуши",
+        "img": "/img/categories/japanese/sushi.jpg"
+      }
+    },
+    "italian": {
+      "pasta": {
+        "title": "Паста",
+        "img": "/img/categories/italian/pasta.jpg"
+      },
+      "salads": {
+        "title": "Салаты",
+        "img": "/img/categories/italian/salads.jpg"
+      },
+      "soups": {
+        "title": "Супы",
+        "img": "/img/categories/italian/soups.jpg"
+      }
+    },
+    "slavic": {
+      "zakuski": {
+        "title": "Закуски",
+        "img": "/img/categories/slavic/zakuski.jpg"
+      },
+      "coldFood": {
+        "title": "Замороженная еда",
+        "img": "/img/categories/slavic/pelmeni.jpg"
+      },"salads": {
+        "title": "Салаты",
+        "img": "/img/categories/slavic/salads.jpg"
+      },"soups": {
+        "title": "Супы",
+        "img": "/img/categories/slavic/soups.jpg"
+      },"cookedFood": {
+        "title": "Отварная еда",
+        "img": "/img/categories/slavic/cooked_pelmeni.jpg"
+      }
+    },
+    "bbq": {
+      "wings": {
+        "title": "Крылья BBQ",
+        "img": "/img/categories/bbq/wings.jpg"
+      },
+      "burgers": {
+        "title": "Бургеры и картошка фри",
+        "img": "/img/categories/bbq/burgers.jpg"
+      }
+    },
+    "bar": {
+      "drinks": {
+        "title": "Напитки",
+        "img": "/img/categories/bar/drinks.jpg"
+      },
+      "juice": {
+        "title": "Соки",
+        "img": "/img/categories/bar/juice.jpg"
+      },
+      "beer": {
+        "title": "Пиво",
+        "img": "/img/categories/bar/beer.jpg"
+      },
+      "craftDrinks": {
+        "title": "Фирменные напитки",
+        "img": "/img/categories/bar/craft_drinks.jpg"
+      }
+    }
+  },
+  "dishes": {
+    "pizza": {
+      "super-cheese": {
         "title": "Супер сыр",
         "img": "/img/menu/pizza/super-cheese.jpg",
         "numberOfPieces": 8,
@@ -159,9 +252,10 @@
           "calories": 425,
           "fats": 12,
           "protein": 25,
-          "glucides": 35
+          "glicides": 35
         }
-      }, {
+      },
+      "mexicano": {
         "title": "Мексикано",
         "img": "/img/menu/pizza/mexicano.jpg",
         "numberOfPieces": 8,
@@ -174,9 +268,10 @@
           "calories": 350,
           "fats": 15,
           "protein": 19,
-          "glucides": 45
+          "glicides": 45
         }
-      }, {
+      },
+      "four-seasons": {
         "title": "4 сезона",
         "img": "/img/menu/pizza/four-seasons.jpg",
         "numberOfPieces": 8,
@@ -189,9 +284,10 @@
           "calories": 380,
           "fats": 18,
           "protein": 15,
-          "glucides": 42
+          "glicides": 42
         }
-      }, {
+      },
+      "four-meats": {
         "title": "4 мяса",
         "img": "/img/menu/pizza/four-meats.jpg",
         "numberOfPieces": 8,
@@ -204,9 +300,10 @@
           "calories": 380,
           "fats": 18,
           "protein": 15,
-          "glucides": 42
+          "glicides": 42
         }
-      }, {
+      },
+      "four-cheese": {
         "title": "4 сыра",
         "img": "/img/menu/pizza/four-cheese.jpg",
         "numberOfPieces": 8,
@@ -219,9 +316,10 @@
           "calories": 269,
           "fats": 12,
           "protein": 11,
-          "glucides": 30
+          "glicides": 30
         }
-      }, {
+      },
+      "super-meat": {
         "title": "Супер Мясо",
         "img": "/img/menu/pizza/super-meat.jpg",
         "numberOfPieces": 8,
@@ -234,9 +332,10 @@
           "calories": 282,
           "fats": 15,
           "protein": 15,
-          "glucides": 21
+          "glicides": 21
         }
-      }, {
+      },
+      "pepperoni": {
         "title": "Пепперони",
         "img": "/img/menu/pizza/pepperoni.jpg",
         "numberOfPieces": 8,
@@ -249,9 +348,10 @@
           "calories": 290,
           "fats": 16,
           "protein": 14,
-          "glucides": 38
+          "glicides": 38
         }
-      }, {
+      },
+      "spicy-meat": {
         "title": "Острое мясо",
         "img": "/img/menu/pizza/spicy-meat.jpg",
         "numberOfPieces": 8,
@@ -264,10 +364,13 @@
           "calories": 300,
           "fats": 17,
           "protein": 15,
-          "glucides": 35
+          "glicides": 35
         }
       }
-    ],
+    }
+  },
+  "menu" : {
+    "pizza" : [],
     "japanese": {
       "sets": {
         "title": "Сеты",
@@ -286,7 +389,7 @@
               "calories": 320,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Сет Ямагата",
@@ -301,7 +404,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Сет Акита",
@@ -316,7 +419,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Сет Мияги",
@@ -331,7 +434,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }
         ]
@@ -353,7 +456,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Сакура",
@@ -368,7 +471,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Филадельфия Митцу",
@@ -383,7 +486,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Бибай",
@@ -398,7 +501,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }
         ]
@@ -420,7 +523,7 @@
               "calories": 180,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Чука вакаме",
@@ -435,7 +538,7 @@
               "calories": 180,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }
         ]
@@ -457,7 +560,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Мисо Классик",
@@ -472,7 +575,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }
         ]
@@ -494,7 +597,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Мурахитай",
@@ -509,7 +612,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Морек",
@@ -524,7 +627,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Удон-сан",
@@ -539,7 +642,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }
         ]
@@ -561,7 +664,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Тохан Вега",
@@ -576,7 +679,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Тохан классик",
@@ -591,7 +694,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Тохан Кеоси",
@@ -606,7 +709,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }
         ]
@@ -628,7 +731,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Икра капеллана черная гункан",
@@ -643,7 +746,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Икра капеллана красная гункан",
@@ -658,7 +761,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }, {
             "title": "Ясай гункан",
@@ -673,7 +776,7 @@
               "calories": 150,
               "fats": 15,
               "protein": 19,
-              "glucides": 25
+              "glicides": 25
             }
           }
         ]
@@ -697,7 +800,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Лацио",
@@ -712,7 +815,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }
         ]
@@ -734,7 +837,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Цезарь с курицей",
@@ -749,7 +852,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Греческий",
@@ -764,7 +867,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }
         ]
@@ -786,7 +889,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }
         ]
@@ -823,7 +926,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Солянка",
@@ -838,7 +941,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }
         ]
@@ -859,7 +962,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Отварные пельмени свино-говяжие",
@@ -874,13 +977,13 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }
         ]
       }
     },
-    "grillBBQ": {
+    "bbq": {
       "wings": {
         "title": "Крылья BBQ",
         "img": "/img/categories/bbq/wings.jpg",
@@ -898,7 +1001,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Крылышки BBQ XL",
@@ -913,7 +1016,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Крылышки BBQ",
@@ -928,7 +1031,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }
         ]
@@ -950,7 +1053,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Картошка по-деревенски",
@@ -965,7 +1068,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Бургер Куриный",
@@ -980,7 +1083,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }, {
             "title": "Бургер Свино-говяжий",
@@ -995,7 +1098,7 @@
               "calories": 315,
               "fats": 15,
               "protein": 19,
-              "glucides": 45
+              "glicides": 45
             }
           }
         ]
@@ -1015,7 +1118,7 @@
           "calories": 315,
           "fats": 15,
           "protein": 19,
-          "glucides": 45
+          "glicides": 45
         }
       }, {
         "title": "Детский сет «Остров сокровищ»",
@@ -1030,7 +1133,7 @@
           "calories": 315,
           "fats": 15,
           "protein": 19,
-          "glucides": 45
+          "glicides": 45
         }
       }, {
         "title": "Детский сет «Панда Кунг-фу»",
@@ -1045,7 +1148,7 @@
           "calories": 315,
           "fats": 15,
           "protein": 19,
-          "glucides": 45
+          "glicides": 45
         }
       }
     ],
@@ -1063,7 +1166,7 @@
           "calories": 315,
           "fats": 15,
           "protein": 19,
-          "glucides": 45
+          "glicides": 45
         }
       }, {
         "title": "Классический сырный пирог",
@@ -1078,7 +1181,7 @@
           "calories": 315,
           "fats": 15,
           "protein": 19,
-          "glucides": 45
+          "glicides": 45
         }
       }, {
         "title": "Шоколадный сырный пирог",
@@ -1093,7 +1196,7 @@
           "calories": 315,
           "fats": 15,
           "protein": 19,
-          "glucides": 45
+          "glicides": 45
         }
       }, {
         "title": "Наполеон",
@@ -1108,7 +1211,7 @@
           "calories": 315,
           "fats": 15,
           "protein": 19,
-          "glucides": 45
+          "glicides": 45
         }
       }
     ],
