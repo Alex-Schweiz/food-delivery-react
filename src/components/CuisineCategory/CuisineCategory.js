@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import classes from './CuisineCategory.css';
 
-function cuisineCategory(props){
+function cuisineCategory(props) {
   function getProperUrl(slug) {
     return `/menu/${slug}`
   }

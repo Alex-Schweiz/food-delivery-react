@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import classes from './DishPage.css';
 import Breadcrumbs from '../../components/UI/Breadcrumbs/Breadcrumbs';
+import DishDetails from './DishDetails/DishDetails';
 import axios from "../../axios-delivery";
 
 class DishPage extends Component {
@@ -17,20 +18,19 @@ class DishPage extends Component {
   }
 
   componentDidMount() {
-    this.setState({isLoading: true});
     this.getCurrentDish();
   }
 
   getCurrentCategory() {
-    let macthingCategory = this.props.match.params.category;
-    let macthingTitle = this.props.match.params.title;
-    this.setState({currentCategory: macthingCategory});
-    this.setState({currentTitle: macthingTitle});
+    let matchingCategory = this.props.match.params.category;
+    let matchingTitle = this.props.match.params.title;
+    this.setState({currentCategory: matchingCategory});
+    this.setState({currentTitle: matchingTitle});
   }
 
   getCurrentDish() {
     let localCategory = this.state.currentCategory;
-    let localTitle = this.state.currentCategory;
+    let localTitle = this.state.currentTitle;
     let composedUrl = `https://food-delivery-react.firebaseio.com/dishes/${localCategory}/${localTitle}.json`;
     axios.get(composedUrl)
       .then(response => {
@@ -48,14 +48,14 @@ class DishPage extends Component {
     if (this.state.isLoading) {
       dishContent = <div>Loading...</div>
     } else {
-      dishContent = <div>
-        {this.state.currentDish.title}
+      dishContent = <div className={classes.DishPage}>
+        <h1>{this.state.currentDish.title}</h1>
+        <DishDetails />
       </div>
     }
     return (
-      <div>
+      <div className={classes.DishPage}>
         <Breadcrumbs/>
-        <h1>Dish Page</h1>
         {dishContent}
       </div>
     )

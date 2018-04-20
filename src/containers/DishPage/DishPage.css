@@ -1,0 +1,11 @@
+.DishPage {
+
+}
+
+.DishPage h1 {
+    color: #303030;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 600;
+    padding-left: 12px;
+}

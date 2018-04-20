@@ -1,0 +1,22 @@
+.DishDetails {
+    background-color: #fff;
+    margin: 8px;
+    padding: 8px;
+    height: 600px;
+    display: flex;
+}
+
+.ImageContainer {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    border-right: 1px solid #000000;
+}
+
+.ImageContainer img {
+    margin: auto;
+}
+
+.InfoContainer {
+    width: 54%;
+}
