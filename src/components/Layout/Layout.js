@@ -7,6 +7,7 @@ import RedMenu from '../../containers/RedMenu/RedMenu';
 import HomePage from '../HomePage/HomePage';
 import MenuPage from '../../containers/MenuPage/MenuPage';
 import CuisinePage from '../../containers/CuisinePage/CuisinePage';
+import DishPage from '../../containers/DishPage/DishPage';
 import Footer from '../Footer/Footer';
 
 const layout = () => (
@@ -14,8 +15,9 @@ const layout = () => (
     <Header />
     <RedMenu />
     <Route exact path='/' component={HomePage}/>
-    <Route path='/menu/pizza' component={MenuPage}/>
-    <Route path='/cuisine/japanese' component={CuisinePage}/>
+    <Route path='/menu/:dishCategory' component={MenuPage}/>
+    <Route path='/cuisine/:cuisineType' component={CuisinePage}/>
+    <Route path='/dish/:category/:title' component={DishPage}/>
     <Footer />
   </Aux>
 );

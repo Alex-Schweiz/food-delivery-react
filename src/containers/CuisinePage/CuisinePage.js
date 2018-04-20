@@ -9,15 +9,34 @@ class CuisinePage extends Component {
   state = {
     currentCategories: [],
     isLoading: true,
+    currentCuisine: '',
+    categoryMap: new Map([
+      ['japanese', 'Японская кухня'],
+      ['italian', 'Итальянская кухня'],
+      ['slavic', 'Славянская кухня'],
+      ['bar', 'Бар'],
+      ['bbq', 'Гриль BBQ'],
+    ])
   };
 
   componentWillMount() {
+    this.getCurrentCuisine();
+  }
+
+  componentDidMount() {
     this.setState({isLoading: true});
     this.getCurrentCategories();
   }
 
+  getCurrentCuisine() {
+    let macthingCategory = this.props.match.params.cuisineType;
+    this.setState({currentCuisine: macthingCategory});
+  }
+
   getCurrentCategories() {
-    axios.get(`https://food-delivery-react.firebaseio.com/menu/japanese.json`)
+    let localCategory = this.state.currentCuisine;
+    let composedUrl= `https://food-delivery-react.firebaseio.com/categories/${localCategory}.json`;
+    axios.get(composedUrl)
       .then(response => {
         console.log(response);
         this.setState({currentCategories: Object.keys(response.data).map(i => response.data[i])});
@@ -45,7 +64,7 @@ class CuisinePage extends Component {
     return (
       <div className={classes.CuisinePage}>
         <Breadcrumbs/>
-        <h1>Японская кухня</h1>
+        <h1>{this.state.categoryMap.get(this.props.match.params.cuisineType)}</h1>
         {cuisineContent}
       </div>
     )

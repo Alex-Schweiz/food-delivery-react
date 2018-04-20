@@ -10,12 +10,45 @@ class menuPage extends Component {
     defaultDishesOrder: [],
     currentDishes: [],
     sortBy: 'default',
+    currentCategory: '',
+    dishesMap: new Map([
+      ['pizza', 'Пицца'],
+      ['japanese-sets', 'Сеты'],
+      ['japanese-rolls', 'Роллы'],
+      ['japanese-salads', 'Салаты'],
+      ['japanese-soups', 'Супы'],
+      ['japanese-pasta', 'Лапша'],
+      ['japanese-rice', 'Горячий рис'],
+      ['japanese-sushi', 'Суши'],
+      ['italian-pasta', 'Паста'],
+      ['italian-salads', 'Салаты'],
+      ['italian-soups', 'Супы'],
+      ['slavic-soups', 'Супы'],
+      ['slavic-cookedFood', 'Приготовленная еда'],
+      ['bbq-wings', 'Крылья BBQ'],
+      ['bbq-burgers', 'Бургеры'],
+      ['kids-menu', 'Детское меню'],
+      ['desserts', 'Дессерты'],
+      ['bar-drinks', 'Напитки'],
+      ['bar-juice', 'Соки'],
+      ['bar-beer', 'Пиво'],
+      ['bar-craft', 'Фирменные напитки'],
+    ]),
     isLoading: true
   };
 
   componentWillMount() {
+    this.getCurrentCategory();
+  }
+
+  componentDidMount() {
     this.setState({isLoading: true});
     this.getCurrentDishes();
+  }
+
+  getCurrentCategory() {
+    let macthingCategory = this.props.match.params.dishCategory;
+    this.setState({currentCategory: macthingCategory});
   }
 
   setDefaultDishes() {
@@ -24,10 +57,12 @@ class menuPage extends Component {
   }
 
   getCurrentDishes() {
-    axios.get(`https://food-delivery-react.firebaseio.com/menu/pizza.json`)
+    let localCategory = this.state.currentCategory;
+    let composedUrl = `https://food-delivery-react.firebaseio.com/dishes/${localCategory}.json`;
+    axios.get(composedUrl)
       .then(response => {
         console.log(response);
-        this.setState({currentDishes: response.data});
+        this.setState({currentDishes: Object.keys(response.data).map(i => response.data[i])});
         this.setState({isLoading: false});
         this.setDefaultDishes();
       })
@@ -78,7 +113,7 @@ class menuPage extends Component {
     return (
       <div className={classes.MenuPage}>
         <Breadcrumbs/>
-        <h1>Пицца</h1>
+        <h1>{this.state.dishesMap.get(this.props.match.params.dishCategory)}</h1>
         <div className={classes.MenuSortablePanel}>
           <p>Сортировать по</p>
           <select id="sorting" onChange={this.changeSorting}>

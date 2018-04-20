@@ -15,109 +15,109 @@ class redMenu extends Component {
       title: 'Японская кухня',
       childrenCategory: 1
     }, {
-      link: '/menu/pizza',
+      link: '/cuisine/italian',
       title: 'Итальянская кухня',
       childrenCategory: 2
     }, {
-      link: '/menu/pizza',
+      link: '/cuisine/slavic',
       title: 'Славянская кухня',
       childrenCategory: 3
     }, {
-      link: '/menu/pizza',
+      link: '/cuisine/bbq',
       title: 'Гриль BBQ',
       childrenCategory: 4
     }, {
-      link: '/menu/pizza',
+      link: '/menu/kids-menu',
       title: 'Детское меню',
       childrenCategory: null
     }, {
-      link: '/menu/pizza',
+      link: '/menu/desserts',
       title: 'Десерты',
       childrenCategory: null
     }, {
-      link: '/menu/pizza',
+      link: '/cuisine/bar',
       title: 'Бар',
       childrenCategory: 5
     }],
     subCategoryItems: {
       1: [
         {
-          link: '/',
+          link: '/menu/japanese-sets',
           title: 'Сеты'
         }, {
-          link: '/',
+          link: '/menu/japanese-rolls',
           title: 'Роллы'
         }, {
-          link: '/',
+          link: '/menu/japanese-salads',
           title: 'Салаты'
         }, {
-          link: '/',
+          link: '/menu/japanese-soups',
           title: 'Супы'
         }, {
-          link: '/',
+          link: '/menu/japanese-pasta',
           title: 'Лапша'
         }, {
-          link: '/',
+          link: '/menu/japanese-rice',
           title: 'Горячий рис'
         }, {
-          link: '/',
+          link: '/menu/japanese-sushi',
           title: 'Суши'
         }, {
-          link: '/',
+          link: '/cuisine/japanese',
           title: 'Инари'
         }
       ],
       2: [
         {
-          link: '/',
+          link: '/menu/italian-pasta',
           title: 'Паста'
         }, {
-          link: '/',
+          link: '/menu/italian-salads',
           title: 'Салаты'
         }, {
-          link: '/',
+          link: '/menu/italian-soups',
           title: 'Супы'
         }
       ],
       3: [
         {
-          link: '/',
+          link: '/menu/',
           title: 'Закуски'
         }, {
-          link: '/',
+          link: '/menu/slavic-cookedFood',
           title: 'Замороженные пельмени, вареники'
         }, {
-          link: '/',
+          link: '/menu/',
           title: 'Салаты'
         }, {
-          link: '/',
+          link: '/menu/slavic-soups',
           title: 'Супы'
         }, {
-          link: '/',
+          link: '/menu/slavic-cookedFood',
           title: 'Отварные пельмени, вареники'
         }
       ],
       4: [
         {
-          link: '/',
+          link: '/menu/bbq-wings',
           title: 'Крылья BBQ'
         }, {
-          link: '/',
+          link: '/menu/bbq-burgers',
           title: 'Бургеры и картошка'
         }
       ],
       5: [
         {
-          link: '/',
+          link: '/menubar-drinks/bar-drinks',
           title: 'Напитки'
         }, {
-          link: '/',
+          link: '/menu/bar-juice',
           title: 'Соки'
         }, {
-          link: '/',
+          link: '/menu/bar-beer',
           title: 'Пиво'
         }, {
-          link: '/',
+          link: '/menu/bar-craft',
           title: 'Фирменные напитки'
         }
       ]

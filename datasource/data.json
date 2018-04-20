@@ -148,92 +148,113 @@
     "japanese": {
       "sets": {
         "title": "Сеты",
-        "img": "/img/categories/japanese/sets.jpg"
+        "img": "/img/categories/japanese/sets.jpg",
+        "slug": "japanese-sets"
       },
       "rolls": {
         "title": "Роллы",
-        "img": "/img/categories/japanese/rolls.jpg"
+        "img": "/img/categories/japanese/rolls.jpg",
+        "slug": "japanese-rolls"
       },
       "salads": {
         "title": "Салаты",
-        "img": "/img/categories/japanese/salads.jpg"
+        "img": "/img/categories/japanese/salads.jpg",
+        "slug": "japanese-salads"
       },
       "soups": {
         "title": "Супы",
-        "img": "/img/categories/japanese/soups.jpg"
+        "img": "/img/categories/japanese/soups.jpg",
+        "slug": "japanese-soups"
       },
       "pasta": {
         "title": "Лапша",
-        "img": "/img/categories/japanese/pasta.jpg"
+        "img": "/img/categories/japanese/pasta.jpg",
+        "slug": "japanese-pasta"
       },
       "rice": {
         "title": "Горячий рис",
-        "img": "/img/categories/japanese/rice.jpg"
+        "img": "/img/categories/japanese/rice.jpg",
+        "slug": "japanese-rice"
       },
       "sushi": {
         "title": "Cуши",
-        "img": "/img/categories/japanese/sushi.jpg"
+        "img": "/img/categories/japanese/sushi.jpg",
+        "slug": "japanese-sushi"
       }
     },
     "italian": {
       "pasta": {
         "title": "Паста",
-        "img": "/img/categories/italian/pasta.jpg"
+        "img": "/img/categories/italian/pasta.jpg",
+        "slug": "italian-pasta"
       },
       "salads": {
         "title": "Салаты",
-        "img": "/img/categories/italian/salads.jpg"
+        "img": "/img/categories/italian/salads.jpg",
+        "slug": "italian-salads"
       },
       "soups": {
         "title": "Супы",
-        "img": "/img/categories/italian/soups.jpg"
+        "img": "/img/categories/italian/soups.jpg",
+        "slug": "italian-soups"
       }
     },
     "slavic": {
       "zakuski": {
         "title": "Закуски",
-        "img": "/img/categories/slavic/zakuski.jpg"
+        "img": "/img/categories/slavic/zakuski.jpg",
+        "slug": "italian-zakuski"
       },
       "coldFood": {
         "title": "Замороженная еда",
-        "img": "/img/categories/slavic/pelmeni.jpg"
+        "img": "/img/categories/slavic/pelmeni.jpg",
+        "slug": "italian-coldFood"
       },"salads": {
         "title": "Салаты",
-        "img": "/img/categories/slavic/salads.jpg"
+        "img": "/img/categories/slavic/salads.jpg",
+        "slug": "italian-salads"
       },"soups": {
         "title": "Супы",
-        "img": "/img/categories/slavic/soups.jpg"
+        "img": "/img/categories/slavic/soups.jpg",
+        "slug": "italian-soups"
       },"cookedFood": {
         "title": "Отварная еда",
-        "img": "/img/categories/slavic/cooked_pelmeni.jpg"
+        "img": "/img/categories/slavic/cooked_pelmeni.jpg",
+        "slug": "italian-cookedFood"
       }
     },
     "bbq": {
       "wings": {
         "title": "Крылья BBQ",
-        "img": "/img/categories/bbq/wings.jpg"
+        "img": "/img/categories/bbq/wings.jpg",
+        "slug": "bbq-wings"
       },
       "burgers": {
         "title": "Бургеры и картошка фри",
-        "img": "/img/categories/bbq/burgers.jpg"
+        "img": "/img/categories/bbq/burgers.jpg",
+        "slug": "bbq-burgers"
       }
     },
     "bar": {
       "drinks": {
         "title": "Напитки",
-        "img": "/img/categories/bar/drinks.jpg"
+        "img": "/img/categories/bar/drinks.jpg",
+        "slug": "bar-drinks"
       },
       "juice": {
         "title": "Соки",
-        "img": "/img/categories/bar/juice.jpg"
+        "img": "/img/categories/bar/juice.jpg",
+        "slug": "bar-juice"
       },
       "beer": {
         "title": "Пиво",
-        "img": "/img/categories/bar/beer.jpg"
+        "img": "/img/categories/bar/beer.jpg",
+        "slug": "bar-beer"
       },
       "craftDrinks": {
         "title": "Фирменные напитки",
-        "img": "/img/categories/bar/craft_drinks.jpg"
+        "img": "/img/categories/bar/craft_drinks.jpg",
+        "slug": "bar-craft"
       }
     }
   },
@@ -241,6 +262,7 @@
     "pizza": {
       "super-cheese": {
         "title": "Супер сыр",
+        "slug": "super-cheese",
         "img": "/img/menu/pizza/super-cheese.jpg",
         "numberOfPieces": 8,
         "price": 107,
@@ -257,6 +279,7 @@
       },
       "mexicano": {
         "title": "Мексикано",
+        "slug": "mexicano",
         "img": "/img/menu/pizza/mexicano.jpg",
         "numberOfPieces": 8,
         "price": 97,
@@ -273,6 +296,7 @@
       },
       "four-seasons": {
         "title": "4 сезона",
+        "slug": "four-seasons",
         "img": "/img/menu/pizza/four-seasons.jpg",
         "numberOfPieces": 8,
         "price": 116,
@@ -289,6 +313,7 @@
       },
       "four-meats": {
         "title": "4 мяса",
+        "slug": "four-meats",
         "img": "/img/menu/pizza/four-meats.jpg",
         "numberOfPieces": 8,
         "price": 123,
@@ -367,745 +392,707 @@
           "glicides": 35
         }
       }
-    }
-  },
-  "menu" : {
-    "pizza" : [],
-    "japanese": {
-      "sets": {
-        "title": "Сеты",
-        "img": "/img/categories/japanese/sets.jpg",
-        "content": [
-          {
-            "title": "Сет Сайтама",
-            "img": "/img/menu/sets/saitama.jpg",
-            "price": 320,
-            "weight": 800,
-            "description": "Эксклюзивный сет на 26 кусочков в состав которого входят: оригинальный ролл с беконом, жареный ролл с сёмгой, ролл с тигровой креветкой и ролл со свежим лососем. Рассчитан на 2-3 персоны.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Яйцо", "Майонез", "Икра Капеллана оранжевая", "Кунжут", "Тигровая креветка", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 320,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Сет Ямагата",
-            "img": "/img/menu/sets/yamagata.jpg",
-            "price": 439,
-            "weight": 1100,
-            "description": "Эксклюзивный сет на 40 кусочков в составе: ролл с сёмгой, ролл в стружке тунца, ролл с сыром Филадельфия, ролл с лососем и авокадо, ролл с лососем и Фетой, ролл с лососем. Рассчитан на 3-4 персоны",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Икра Капеллана оранжевая", "Кунжут", "Тигровая креветка", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Сет Акита",
-            "img": "/img/menu/sets/akita.jpg",
-            "price": 339,
-            "weight": 1100,
-            "description": "Эксклюзивный сет на 30 кусочков в состав которого входят: ролл с сёмгой, ролл с японским омлетом, ролл со снежным крабом, ролл с тигровой креветкой, жареный ролл. Рассчитан на 3-4 персоны.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Икра Капеллана оранжевая", "Кунжут", "Тигровая креветка", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Сет Мияги",
-            "img": "/img/menu/sets/miyagi.jpg",
-            "price": 299,
-            "weight": 900,
-            "description": "Эксклюзивный сет на 30 кусочков в состав которого входят: ролл с сёмгой, ролл с японским омлетом, ролл со снежным крабом, ролл с тигровой креветкой, жареный ролл. Рассчитан на 3-4 персоны.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Икра Капеллана оранжевая", "Кунжут", "Тигровая креветка", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }
-        ]
+    },
+    "japanese-sets": {
+      "saitama": {
+        "title": "Сет Сайтама",
+        "img": "/img/menu/sets/saitama.jpg",
+        "price": 320,
+        "weight": 800,
+        "description": "Эксклюзивный сет на 26 кусочков в состав которого входят: оригинальный ролл с беконом, жареный ролл с сёмгой, ролл с тигровой креветкой и ролл со свежим лососем. Рассчитан на 2-3 персоны.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Яйцо", "Майонез", "Икра Капеллана оранжевая", "Кунжут", "Тигровая креветка", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 320,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
       },
-      "rolls": {
-        "title": "Роллы",
-        "img": "/img/categories/japanese/rolls.jpg",
-        "content":  [
-          {
-            "title": "Куби",
-            "img": "/img/menu/rolls/kubi.jpg",
-            "price": 89,
-            "weight": 230,
-            "description": "Ролл в красной икре капеллана, со свежим огурцом, обжаренным лососем, помидором, фирменным майонезом и перепелиным яйцом",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Сакура",
-            "img": "/img/menu/rolls/sakura.jpg",
-            "price": 107,
-            "weight": 240,
-            "description": "Большой ролл с сыром Филадельфия, снежным крабом, японским омлетом, икрой капеллана и свежим огурцом.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Филадельфия Митцу",
-            "img": "/img/menu/rolls/phila_mitsu.jpg",
-            "price": 128,
-            "weight": 220,
-            "description": "Ролл с сыром Филадельфия, свежим лососем и огурцом.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Бибай",
-            "img": "/img/menu/rolls/bibai.jpg",
-            "price": 149,
-            "weight": 200,
-            "description": "Ролл с тунцом, огурцом, авокадо, фирменным майонезом и украшен красной икрой Капеллана",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }
-        ]
+      "yamagata": {
+        "title": "Сет Ямагата",
+        "img": "/img/menu/sets/yamagata.jpg",
+        "price": 439,
+        "weight": 1100,
+        "description": "Эксклюзивный сет на 40 кусочков в составе: ролл с сёмгой, ролл в стружке тунца, ролл с сыром Филадельфия, ролл с лососем и авокадо, ролл с лососем и Фетой, ролл с лососем. Рассчитан на 3-4 персоны",
+        "ingredients": [
+          "Васаби",
+          "Томаты",
+          "Бекон",
+          "Лосось",
+          "Сыр фета",
+          "Икра Капеллана оранжевая",
+          "Кунжут",
+          "Тигровая креветка",
+          "Сухари Панко",
+          "Соевый соус",
+          "Рис",
+          "Нори",
+          "Темпурная мука",
+          "Сыр твердый",
+          "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
       },
-      "salads": {
-        "title": "Салаты",
-        "img": "/img/categories/japanese/salads.jpg",
-        "content": [
-          {
-            "title": "Идзен",
-            "img": "/img/menu/japanese_salads/idzen.jpg",
-            "price": 152,
-            "weight": 250,
-            "description": "Салат из морепродуктов с тигровой креветкой, осьминожками, мидией, маринованными водорослями и кунжутом, заправлен ореховым и фирменным майонезом.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 180,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Чука вакаме",
-            "img": "/img/menu/japanese_salads/chuka.jpg",
-            "price": 79,
-            "weight": 190,
-            "description": "Традиционный салат из маринованных водорослей с огурцом, лимоном, кунжутом и фирменным ореховым соусом.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 180,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }
-        ]
+      "akita": {
+        "title": "Сет Акита",
+        "img": "/img/menu/sets/akita.jpg",
+        "price": 339,
+        "weight": 1100,
+        "description": "Эксклюзивный сет на 30 кусочков в состав которого входят: ролл с сёмгой, ролл с японским омлетом, ролл со снежным крабом, ролл с тигровой креветкой, жареный ролл. Рассчитан на 3-4 персоны.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Икра Капеллана оранжевая", "Кунжут", "Тигровая креветка", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
       },
-      "soups": {
-        "title": "Супы",
-        "img": "/img/categories/japanese/soups.jpg",
-        "content":  [
-          {
-            "title": "Мисо с лососем и тофу",
-            "img": "/img/menu/japanese_soups/miso_salmon.jpg",
-            "price": 63,
-            "weight": 120,
-            "description": "Традиционный японский суп с лососем и сыром тофу.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Мисо Классик",
-            "img": "/img/menu/japanese_soups/miso_classic.jpg",
-            "price": 49,
-            "weight": 120,
-            "description": "Классический суп-мисо с тофу, грибами шиитаке и водорослями вакаме.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }
-        ]
+      "miagi": {
+        "title": "Сет Мияги",
+        "img": "/img/menu/sets/miyagi.jpg",
+        "price": 299,
+        "weight": 900,
+        "description": "Эксклюзивный сет на 30 кусочков в состав которого входят: ролл с сёмгой, ролл с японским омлетом, ролл со снежным крабом, ролл с тигровой креветкой, жареный ролл. Рассчитан на 3-4 персоны.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Икра Капеллана оранжевая", "Кунжут", "Тигровая креветка", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      }
       },
-      "pasta": {
-        "title": "Лапша",
-        "img": "/img/categories/japanese/pasta.jpg",
-        "content":  [
-          {
-            "title": "Лапша Омаке",
-            "img": "/img/menu/japanese_pasta/omake.jpg",
-            "price": 83,
-            "weight": 400,
-            "description": "Лапша хурасаме со свининой, морковью, репчатым луком, помидорами, маринованным имбирем, кабачками, перцем чили и соевым соусом.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Мурахитай",
-            "img": "/img/menu/japanese_pasta/murahitai.jpg",
-            "price": 92,
-            "weight": 380,
-            "description": "Гречневая лапша Соба с черноморскими мидиями, снежным крабом в сливочном соусе",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Морек",
-            "img": "/img/menu/japanese_pasta/morek.jpg",
-            "price": 132,
-            "weight": 400,
-            "description": "Стеклянная лапша с морепродуктами, лососем, тигровой креветкой с добавлением острого соуса Ким Чи",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Удон-сан",
-            "img": "/img/menu/japanese_pasta/udon_san.jpg",
-            "price": 98,
-            "weight": 400,
-            "description": "Лапша удон с телятиной, курицей и свининой, заправлена кисло-сладким соусом с вялеными томатами.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }
-        ]
+    "japanese-rolls": {
+      "kubi": {
+        "title": "Куби",
+        "img": "/img/menu/rolls/kubi.jpg",
+        "price": 89,
+        "weight": 230,
+        "description": "Ролл в красной икре капеллана, со свежим огурцом, обжаренным лососем, помидором, фирменным майонезом и перепелиным яйцом",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
       },
-      "rice": {
-        "title": "Горячий рис",
-        "img": "/img/categories/japanese/rice.jpg",
-        "content":  [
-          {
-            "title": "Рис Кирей",
-            "img": "/img/menu/japanese_rice/kirei.jpg",
-            "price": 53,
-            "weight": 200,
-            "description": "Ароматный рис со спаржей, зеленым горошком, морковью и кукурузой, под соевым соусом и соусом тонкацу.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Тохан Вега",
-            "img": "/img/menu/japanese_rice/vega.jpg",
-            "price": 52,
-            "weight": 200,
-            "description": "Ароматный горячий рис с шампиньонами, болгарским перцем, сыром тофу, репчатым луком, белым кунжутом и соевым соусом.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Тохан классик",
-            "img": "/img/menu/japanese_rice/toxan_classic.jpg",
-            "price": 49,
-            "weight": 200,
-            "description": "Классический японский рис с яйцом, обжаренный с луком и морковью, посыпается кунжутом.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Тохан Кеоси",
-            "img": "/img/menu/japanese_rice/toxan_keosi.jpg",
-            "price": 99,
-            "weight": 200,
-            "description": "Теплый рис с телятиной и креветкой, обжаренный с луком, морковью и чесноком, заправляется смесью трех соусов.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }
-        ]
+      "sakura": {
+        "title": "Сакура",
+        "img": "/img/menu/rolls/sakura.jpg",
+        "price": 107,
+        "weight": 240,
+        "description": "Большой ролл с сыром Филадельфия, снежным крабом, японским омлетом, икрой капеллана и свежим огурцом.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
       },
-      "sushi": {
-        "title": "Cуши",
-        "img": "/img/categories/japanese/sushi.jpg",
-        "content": [
-          {
-            "title": "Гункан с жареным лососем",
-            "img": "/img/menu/japanese_sushi/gunkan_salmon.jpg",
-            "price": 33,
-            "weight": 50,
-            "description": "Острый гункан с жареным лососем и и красной икрой капеллана",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Икра капеллана черная гункан",
-            "img": "/img/menu/japanese_sushi/caviar_black.jpg",
-            "price": 32,
-            "weight": 50,
-            "description": "Икра летучей рыбы черная.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Икра капеллана красная гункан",
-            "img": "/img/menu/japanese_sushi/caviar_red.jpg",
-            "price": 32,
-            "weight": 50,
-            "description": "Икра летучей рыбы красная.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }, {
-            "title": "Ясай гункан",
-            "img": "/img/menu/japanese_sushi/yasai_gunkan.jpg",
-            "price": 26,
-            "weight": 50,
-            "description": "Овощной гункан.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
-            ],
-            "nutrition": {
-              "calories": 150,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 25
-            }
-          }
-        ]
+      "phila-mitsu": {
+        "title": "Филадельфия Митцу",
+        "img": "/img/menu/rolls/phila_mitsu.jpg",
+        "price": 128,
+        "weight": 220,
+        "description": "Ролл с сыром Филадельфия, свежим лососем и огурцом.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "bibai": {
+        "title": "Бибай",
+        "img": "/img/menu/rolls/bibai.jpg",
+        "price": 149,
+        "weight": 200,
+        "description": "Ролл с тунцом, огурцом, авокадо, фирменным майонезом и украшен красной икрой Капеллана",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
       }
     },
-    "italian": {
-      "pasta": {
-        "title": "Паста",
-        "img": "/img/categories/italian/pasta.jpg",
-        "content": [
-          {
-            "title": "Буано",
-            "img": "/img/menu/italian_pasta/buano.jpg",
-            "price": 56,
-            "weight": 300,
-            "description": "Лапша Удон с болгарским перцем, шампиньонами, помидорами, морковью, зеленым луком и соевым соусом.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Лацио",
-            "img": "/img/menu/italian_pasta/lazio.jpg",
-            "price": 93,
-            "weight": 300,
-            "description": "Паста Фетучини со сливочным соусом, курицей, с шампиньонами и сыром пармезан.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }
-        ]
+    "japanese-salads": {
+      "idzen": {
+        "title": "Идзен",
+        "img": "/img/menu/japanese_salads/idzen.jpg",
+        "price": 152,
+        "weight": 250,
+        "description": "Салат из морепродуктов с тигровой креветкой, осьминожками, мидией, маринованными водорослями и кунжутом, заправлен ореховым и фирменным майонезом.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 180,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
       },
-      "salads": {
-        "title": "Салаты",
-        "img": "/img/categories/italian/salads.jpg",
-        "content": [
-          {
-            "title": "Цезарь с морепродуктами",
-            "img": "/img/menu/italian_salads/caesar_seafood.jpg",
-            "price": 119,
-            "weight": 300,
-            "description": "Салат с семгой, креветкой, листьями салата латук, айсберг, пекинской капустой, помидорами черри, перепелиными яйцами и сухарями, заправлен цитрусовым соусом на основе апельсинового сока ",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Цезарь с курицей",
-            "img": "/img/menu/italian_salads/caesar_chicken.jpg",
-            "price": 94,
-            "weight": 300,
-            "description": "Салат из свежих листьев айсберга, лолы, пекинской капусты, латука, помидоров черри, обжаренной курицы, перепелиными яйцами и сухарями, заправлен цитрусовым соусом на основе апельсинового сок...",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Греческий",
-            "img": "/img/menu/italian_salads/greek.jpg",
-            "price": 83,
-            "weight": 300,
-            "description": "Классический греческий салат с огурцом, томатом, сладким перцем, сыром Фета , оливками и маслинами, заправлен оливковым маслом со специями.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }
-        ]
-      },
-      "soups": {
-        "title": "Супы",
-        "img": "/img/categories/italian/soups.jpg",
-        "content": [
-          {
-            "title": "Фунго (грибной)",
-            "img": "/img/menu/italian_soups/fungo.jpg",
-            "price": 64,
-            "weight": 300,
-            "description": "Классический грибной крем суп с грибами шампиньонами, репчатым луком, морковью, белым вином.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }
-        ]
+      "chuka-vakame": {
+        "title": "Чука вакаме",
+        "img": "/img/menu/japanese_salads/chuka.jpg",
+        "price": 79,
+        "weight": 190,
+        "description": "Традиционный салат из маринованных водорослей с огурцом, лимоном, кунжутом и фирменным ореховым соусом.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 180,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
       }
     },
-    "slavic": {
-      "zakuski": {
-        "title": "Закуски",
-        "img": "/img/categories/slavic/zakuski.jpg",
-        "content": []
+    "japanese-soups": {
+      "miso-salmon": {
+        "title": "Мисо с лососем и тофу",
+        "img": "/img/menu/japanese_soups/miso_salmon.jpg",
+        "price": 63,
+        "weight": 120,
+        "description": "Традиционный японский суп с лососем и сыром тофу.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
       },
-      "coldFood": {
-        "title": "Замороженная еда",
-        "img": "/img/categories/slavic/pelmeni.jpg",
-        "content": []
-      },"salads": {
-        "title": "Салаты",
-        "img": "/img/categories/slavic/salads.jpg",
-        "content": []
-      },"soups": {
-        "title": "Супы",
-        "img": "/img/categories/slavic/soups.jpg",
-        "content": [
-          {
-            "title": "Суп Куриный",
-            "img": "/img/menu/slavic_soups/chicken.jpg",
-            "price": 57,
-            "weight": 300,
-            "description": "Легкий куриный суп на курином бульоне, отварным картофелем, репчатым луком, куриным филе и лапшой",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Солянка",
-            "img": "/img/menu/slavic_soups/solyanka.jpg",
-            "price": 56,
-            "weight": 300,
-            "description": "Пикантный суп с добавлением свинины, говядины, охотничьих сосисок, овощей: моркови, репчатого лука, солёных огурцов и маслин, со сметаной",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }
-        ]
-      },"cookedFood": {
-        "title": "Отварная еда",
-        "img": "/img/categories/slavic/cooked_pelmeni.jpg",
-        "content": [
-          {
-            "title": "Отварные пельмени с курицей и грибами",
-            "img": "/img/menu/slavic_cooked_food/pelmeni.jpg",
-            "price": 47,
-            "weight": 300,
-            "description": "Пельмени ручной лепки из заварного теста с куриным филе, грибами и сыром.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Отварные пельмени свино-говяжие",
-            "img": "/img/menu/slavic_cooked_food/pelmeni.jpg",
-            "price": 39,
-            "weight": 300,
-            "description": "Пельмени ручной лепки из заварного теста с говядиной и свининой",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }
-        ]
+      "miso-classic": {
+        "title": "Мисо Классик",
+        "img": "/img/menu/japanese_soups/miso_classic.jpg",
+        "price": 49,
+        "weight": 120,
+        "description": "Классический суп-мисо с тофу, грибами шиитаке и водорослями вакаме.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
       }
     },
-    "bbq": {
+    "japanese-pasta": {
+      "omake": {
+        "title": "Лапша Омаке",
+        "img": "/img/menu/japanese_pasta/omake.jpg",
+        "price": 83,
+        "weight": 400,
+        "description": "Лапша хурасаме со свининой, морковью, репчатым луком, помидорами, маринованным имбирем, кабачками, перцем чили и соевым соусом.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      },
+      "murahitai": {
+        "title": "Мурахитай",
+        "img": "/img/menu/japanese_pasta/murahitai.jpg",
+        "price": 92,
+        "weight": 380,
+        "description": "Гречневая лапша Соба с черноморскими мидиями, снежным крабом в сливочном соусе",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      },
+      "morek": {
+        "title": "Морек",
+        "img": "/img/menu/japanese_pasta/morek.jpg",
+        "price": 132,
+        "weight": 400,
+        "description": "Стеклянная лапша с морепродуктами, лососем, тигровой креветкой с добавлением острого соуса Ким Чи",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      },
+      "udon-san": {
+        "title": "Удон-сан",
+        "img": "/img/menu/japanese_pasta/udon_san.jpg",
+        "price": 98,
+        "weight": 400,
+        "description": "Лапша удон с телятиной, курицей и свининой, заправлена кисло-сладким соусом с вялеными томатами.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      }
+    },
+    "japanese-rice": {
+      "kirei": {
+        "title": "Рис Кирей",
+        "img": "/img/menu/japanese_rice/kirei.jpg",
+        "price": 53,
+        "weight": 200,
+        "description": "Ароматный рис со спаржей, зеленым горошком, морковью и кукурузой, под соевым соусом и соусом тонкацу.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      },
+      "toxan-vega": {
+        "title": "Тохан Вега",
+        "img": "/img/menu/japanese_rice/vega.jpg",
+        "price": 52,
+        "weight": 200,
+        "description": "Ароматный горячий рис с шампиньонами, болгарским перцем, сыром тофу, репчатым луком, белым кунжутом и соевым соусом.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      },
+      "toxan-classic": {
+        "title": "Тохан классик",
+        "img": "/img/menu/japanese_rice/toxan_classic.jpg",
+        "price": 49,
+        "weight": 200,
+        "description": "Классический японский рис с яйцом, обжаренный с луком и морковью, посыпается кунжутом.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      },
+      "toxan-keosi": {
+        "title": "Тохан Кеоси",
+        "img": "/img/menu/japanese_rice/toxan_keosi.jpg",
+        "price": 99,
+        "weight": 200,
+        "description": "Теплый рис с телятиной и креветкой, обжаренный с луком, морковью и чесноком, заправляется смесью трех соусов.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      }
+    },
+    "japanese-sushi": {
+      "gunkan-samon": {
+        "title": "Гункан с жареным лососем",
+        "img": "/img/menu/japanese_sushi/gunkan_salmon.jpg",
+        "price": 33,
+        "weight": 50,
+        "description": "Острый гункан с жареным лососем и и красной икрой капеллана",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      },
+      "caviar-black": {
+        "title": "Икра капеллана черная гункан",
+        "img": "/img/menu/japanese_sushi/caviar_black.jpg",
+        "price": 32,
+        "weight": 50,
+        "description": "Икра летучей рыбы черная.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      },
+      "caviar-red": {
+        "title": "Икра капеллана красная гункан",
+        "img": "/img/menu/japanese_sushi/caviar_red.jpg",
+        "price": 32,
+        "weight": 50,
+        "description": "Икра летучей рыбы красная.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      },
+      "yasai-gunkan": {
+        "title": "Ясай гункан",
+        "img": "/img/menu/japanese_sushi/yasai_gunkan.jpg",
+        "price": 26,
+        "weight": 50,
+        "description": "Овощной гункан.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Сыр твердый"
+        ],
+        "nutrition": {
+          "calories": 150,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 25
+        }
+      }
+    },
+    "italian-pasta": {
+      "buano": {
+        "title": "Буано",
+        "img": "/img/menu/italian_pasta/buano.jpg",
+        "price": 56,
+        "weight": 300,
+        "description": "Лапша Удон с болгарским перцем, шампиньонами, помидорами, морковью, зеленым луком и соевым соусом.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "lazio": {
+        "title": "Лацио",
+        "img": "/img/menu/italian_pasta/lazio.jpg",
+        "price": 93,
+        "weight": 300,
+        "description": "Паста Фетучини со сливочным соусом, курицей, с шампиньонами и сыром пармезан.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      }
+    },
+    "italian-salads": {
+      "caeser-seafood": {
+        "title": "Цезарь с морепродуктами",
+        "img": "/img/menu/italian_salads/caesar_seafood.jpg",
+        "price": 119,
+        "weight": 300,
+        "description": "Салат с семгой, креветкой, листьями салата латук, айсберг, пекинской капустой, помидорами черри, перепелиными яйцами и сухарями, заправлен цитрусовым соусом на основе апельсинового сока ",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "caesar-chicken": {
+        "title": "Цезарь с курицей",
+        "img": "/img/menu/italian_salads/caesar_chicken.jpg",
+        "price": 94,
+        "weight": 300,
+        "description": "Салат из свежих листьев айсберга, лолы, пекинской капусты, латука, помидоров черри, обжаренной курицы, перепелиными яйцами и сухарями, заправлен цитрусовым соусом на основе апельсинового сок...",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "greek": {
+        "title": "Греческий",
+        "img": "/img/menu/italian_salads/greek.jpg",
+        "price": 83,
+        "weight": 300,
+        "description": "Классический греческий салат с огурцом, томатом, сладким перцем, сыром Фета , оливками и маслинами, заправлен оливковым маслом со специями.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      }
+    },
+    "italian-soups": {
+      "fungo": {
+        "title": "Фунго (грибной)",
+        "img": "/img/menu/italian_soups/fungo.jpg",
+        "price": 64,
+        "weight": 300,
+        "description": "Классический грибной крем суп с грибами шампиньонами, репчатым луком, морковью, белым вином.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      }
+    },
+    "slavic-soups": {
+      "chicken": {
+        "title": "Суп Куриный",
+        "img": "/img/menu/slavic_soups/chicken.jpg",
+        "price": 57,
+        "weight": 300,
+        "description": "Легкий куриный суп на курином бульоне, отварным картофелем, репчатым луком, куриным филе и лапшой",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "solyanka": {
+        "title": "Солянка",
+        "img": "/img/menu/slavic_soups/solyanka.jpg",
+        "price": 56,
+        "weight": 300,
+        "description": "Пикантный суп с добавлением свинины, говядины, охотничьих сосисок, овощей: моркови, репчатого лука, солёных огурцов и маслин, со сметаной",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      }
+    },
+    "slavic-cookedFood": {
+      "pelmeni-chicken": {
+        "title": "Отварные пельмени с курицей и грибами",
+        "img": "/img/menu/slavic_cooked_food/pelmeni.jpg",
+        "price": 47,
+        "weight": 300,
+        "description": "Пельмени ручной лепки из заварного теста с куриным филе, грибами и сыром.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "pelmeni-pig": {
+        "title": "Отварные пельмени свино-говяжие",
+        "img": "/img/menu/slavic_cooked_food/pelmeni.jpg",
+        "price": 39,
+        "weight": 300,
+        "description": "Пельмени ручной лепки из заварного теста с говядиной и свининой",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      }
+    },
+    "bbq-wings": {
+      "naggets": {
+        "title": "Наггетсы",
+        "img": "/img/menu/bbq_wings/nuggets.jpg",
+        "price": 55,
+        "weight": 220,
+        "description": "Обжаренные наггетсы из куриного филе.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "wings-xl": {
+        "title": "Крылышки BBQ XL",
+        "img": "/img/menu/bbq_wings/wings.jpg",
+        "price": 189,
+        "weight": 900,
+        "description": "Обжаренное куриное крыло под соусом BBQ",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
       "wings": {
-        "title": "Крылья BBQ",
-        "img": "/img/categories/bbq/wings.jpg",
-        "content": [
-          {
-            "title": "Наггетсы",
-            "img": "/img/menu/bbq_wings/nuggets.jpg",
-            "price": 55,
-            "weight": 220,
-            "description": "Обжаренные наггетсы из куриного филе.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Крылышки BBQ XL",
-            "img": "/img/menu/bbq_wings/wings.jpg",
-            "price": 189,
-            "weight": 900,
-            "description": "Обжаренное куриное крыло под соусом BBQ",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Крылышки BBQ",
-            "img": "/img/menu/bbq_wings/wings.jpg",
-            "price": 111,
-            "weight": 450,
-            "description": "Обжаренное куриное крыло под соусом BBQ",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }
-        ]
-      },
-      "burgers": {
-        "title": "Бургеры и картошка фри",
-        "img": "/img/categories/bbq/burgers.jpg",
-        "content": [
-          {
-            "title": "Детский сет «Angry Birds»",
-            "img": "/img/menu/bbq_burgers_potato/set_angry_birds.jpg",
-            "price": 92,
-            "weight": 250,
-            "description": "Бургер с запечённой куриной котлеткой и тостовым сыром 140 г, картошка фри 200 г, сок Rich Kids 0,2 л на выбор.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Картошка по-деревенски",
-            "img": "/img/menu/bbq_burgers_potato/potato_village.jpg",
-            "price": 46,
-            "weight": 250,
-            "description": "Жареная картошка фри ломтиками",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Бургер Куриный",
-            "img": "/img/menu/bbq_burgers_potato/chicken_burger.jpg",
-            "price": 48,
-            "weight": 250,
-            "description": "Бургер с куриной котлетой, сыром, соусом и томатами.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }, {
-            "title": "Бургер Свино-говяжий",
-            "img": "/img/menu/bbq_burgers_potato/beef_burger.jpg",
-            "price": 48,
-            "weight": 250,
-            "description": "Бургер с свино-говяжей котлетой, соусом, томатами, сыром, маринованными огурцами и луком.",
-            "ingredients": [
-              "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
-            ],
-            "nutrition": {
-              "calories": 315,
-              "fats": 15,
-              "protein": 19,
-              "glicides": 45
-            }
-          }
-        ]
+        "title": "Крылышки BBQ",
+        "img": "/img/menu/bbq_wings/wings.jpg",
+        "price": 111,
+        "weight": 450,
+        "description": "Обжаренное куриное крыло под соусом BBQ",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
       }
     },
-    "kidsMenu": [
-      {
+    "bbq-burgers": {
+      "set-angry-birds": {
+        "title": "Детский сет «Angry Birds»",
+        "img": "/img/menu/bbq_burgers_potato/set_angry_birds.jpg",
+        "price": 92,
+        "weight": 250,
+        "description": "Бургер с запечённой куриной котлеткой и тостовым сыром 140 г, картошка фри 200 г, сок Rich Kids 0,2 л на выбор.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "potato-village": {
+        "title": "Картошка по-деревенски",
+        "img": "/img/menu/bbq_burgers_potato/potato_village.jpg",
+        "price": 46,
+        "weight": 250,
+        "description": "Жареная картошка фри ломтиками",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "chicken-burger": {
+        "title": "Бургер Куриный",
+        "img": "/img/menu/bbq_burgers_potato/chicken_burger.jpg",
+        "price": 48,
+        "weight": 250,
+        "description": "Бургер с куриной котлетой, сыром, соусом и томатами.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      },
+      "beef-burger": {
+        "title": "Бургер Свино-говяжий",
+        "img": "/img/menu/bbq_burgers_potato/beef_burger.jpg",
+        "price": 48,
+        "weight": 250,
+        "description": "Бургер с свино-говяжей котлетой, соусом, томатами, сыром, маринованными огурцами и луком.",
+        "ingredients": [
+          "Васаби", "Томаты", "Бекон", "Лосось", "Сыр фета", "Сухари Панко", "Соевый соус", "Рис", "Нори", "Темпурная мука", "Сыр твердый", "Имбирь маринованный"
+        ],
+        "nutrition": {
+          "calories": 315,
+          "fats": 15,
+          "protein": 19,
+          "glicides": 45
+        }
+      }
+    },
+    "kids-menu": {
+      "set-angry-birds": {
         "title": "Детский сет «Angry Birds»",
         "img": "/img/menu/kids_menu/set_angry_birds.jpg",
         "price": 92,
@@ -1120,7 +1107,8 @@
           "protein": 19,
           "glicides": 45
         }
-      }, {
+      },
+      "set-treasure-island": {
         "title": "Детский сет «Остров сокровищ»",
         "img": "/img/menu/kids_menu/set_treasure_island.jpg",
         "price": 92,
@@ -1135,7 +1123,8 @@
           "protein": 19,
           "glicides": 45
         }
-      }, {
+      },
+      "set-kung-fu": {
         "title": "Детский сет «Панда Кунг-фу»",
         "img": "/img/menu/kids_menu/set_kung_fu.jpg",
         "price": 92,
@@ -1151,9 +1140,9 @@
           "glicides": 45
         }
       }
-    ],
-    "desserts": [
-      {
+    },
+    "desserts": {
+      "peach-cake": {
         "title": "Персиковый сырный пирог",
         "img": "/img/menu/desserts_menu/peach_cake.jpg",
         "price": 46,
@@ -1168,7 +1157,8 @@
           "protein": 19,
           "glicides": 45
         }
-      }, {
+      },
+      "classical-cheese-cake": {
         "title": "Классический сырный пирог",
         "img": "/img/menu/desserts_menu/classical_cheese_cake.jpg",
         "price": 46,
@@ -1183,7 +1173,8 @@
           "protein": 19,
           "glicides": 45
         }
-      }, {
+      },
+      "chocolate-cheese-cake": {
         "title": "Шоколадный сырный пирог",
         "img": "/img/menu/desserts_menu/chocolate_cheese_cake.jpg",
         "price": 47,
@@ -1198,7 +1189,8 @@
           "protein": 19,
           "glicides": 45
         }
-      }, {
+      },
+      "napoleon": {
         "title": "Наполеон",
         "img": "/img/menu/desserts_menu/napoleon.jpg",
         "price": 32,
@@ -1214,119 +1206,111 @@
           "glicides": 45
         }
       }
-    ],
-    "bar": {
-      "drinks": {
-        "title": "Напитки",
-        "img": "/img/categories/bar/drinks.jpg",
-        "content": [
-          {
-            "title": "Coca-Cola Zero 0,5",
-            "img": "/img/menu/bar_drinks/cocacola_zero.jpg",
-            "price": 20,
-            "weight": 500,
-            "description": "Его главная особенность в том, что Zero по вкусу как классическая Coca-Cola, но не содержит сахара и калорий."
-          }, {
-            "title": "Балтика '0'",
-            "img": "/img/menu/bar_drinks/baltica_zero.jpg",
-            "price": 28,
-            "weight": 500,
-            "description": "Отличное пиво"
-          }, {
-            "title": "BLU ENERGY",
-            "img": "/img/menu/bar_drinks/blu_energy.jpg",
-            "price": 22,
-            "weight": 250,
-            "description": "Первый в линейке продуктов. BLU предоставляет Вам продукт идеальный источник чистой энергии. Мягкий вкус и отсутствие неприятного послевкусия."
-          }, {
-            "title": "BLU MOJITO ENERGY DRINK",
-            "img": "/img/menu/bar_drinks/blu_mojito_energy.jpg",
-            "price": 22,
-            "weight": 250,
-            "description": "Неудержимо свежий Энергетический напиток, это на 100% Безалкогольное Мохито с энергией от BLU Drink. Мягкий вкус и отсутствие неприятного послевкусия."
-          }
-        ]
+    },
+    "bar-drinks": {
+      "cocacola-zero": {
+        "title": "Coca-Cola Zero 0,5",
+        "img": "/img/menu/bar_drinks/cocacola_zero.jpg",
+        "price": 20,
+        "weight": 500,
+        "description": "Его главная особенность в том, что Zero по вкусу как классическая Coca-Cola, но не содержит сахара и калорий."
       },
-      "juice": {
-        "title": "Соки",
-        "img": "/img/categories/bar/juice.jpg",
-        "content": [
-          {
-            "title": "Сок Rich Вишневый",
-            "img": "/img/menu/bar_juice/rich_cherry.jpg",
-            "price": 34,
-            "weight": 1000,
-            "description": "Вишневый сок Rich"
-          }, {
-            "title": "Сок Rich Яблочный",
-            "img": "/img/menu/bar_juice/rich_apple.jpg",
-            "price": 34,
-            "weight": 1000,
-            "description": "Яблочный сок Rich"
-          }, {
-            "title": "Сок Rich Мультифрут",
-            "img": "/img/menu/bar_juice/rich_multi.jpg",
-            "price": 34,
-            "weight": 1000,
-            "description": "Мультифрут сок Rich"
-          }, {
-            "title": "Сок Rich Томатный",
-            "img": "/img/menu/bar_juice/rich_tomato.jpg",
-            "price": 34,
-            "weight": 1000,
-            "description": "Томатный сок Rich"
-          }
-        ]
+      "baltica-zero": {
+        "title": "Балтика '0'",
+        "img": "/img/menu/bar_drinks/baltica_zero.jpg",
+        "price": 28,
+        "weight": 500,
+        "description": "Отличное пиво"
       },
-      "beer": {
-        "title": "Пиво",
-        "img": "/img/categories/bar/beer.jpg",
-        "content": [
-          {
-            "title": "Балтика '0'",
-            "img": "/img/menu/bar_beer/baltica_zero.jpg",
-            "price": 20,
-            "weight": 500,
-            "description": "Его главная особенность в том, что Zero по вкусу как классическая Coca-Cola, но не содержит сахара и калорий."
-          }, {
-            "title": "Stella Artois Безалкогольное 0,5",
-            "img": "/img/menu/bar_beer/stella_zero.jpg",
-            "price": 32,
-            "weight": 500,
-            "description": "Пиво Stella Artois Безалкогольное. Стекло."
-          }
-        ]
+      "blu-energy": {
+        "title": "BLU ENERGY",
+        "img": "/img/menu/bar_drinks/blu_energy.jpg",
+        "price": 22,
+        "weight": 250,
+        "description": "Первый в линейке продуктов. BLU предоставляет Вам продукт идеальный источник чистой энергии. Мягкий вкус и отсутствие неприятного послевкусия."
       },
-      "craftDrinks": {
-        "title": "Фирменные напитки",
-        "img": "/img/categories/bar/craft_drinks.jpg",
-        "content": [
-          {
-            "title": "Оранж",
-            "img": "/img/menu/bar_craft/orange.jpg",
-            "price": 48,
-            "weight": 500,
-            "description": "Фирменный напиток Оранж в стеклянной бутылке."
-          }, {
-            "title": "Узвар",
-            "img": "/img/menu/bar_craft/uzvar.jpg",
-            "price": 39,
-            "weight": 500,
-            "description": "Фирменный напиток Узвар в стеклянной бутылке."
-          }, {
-            "title": "Имбирно-облепиховый напиток",
-            "img": "/img/menu/bar_craft/ginger.jpg",
-            "price": 62,
-            "weight": 500,
-            "description": "Фирменный Имбирно-облепиховый напиток в стеклянной бутылке."
-          }, {
-            "title": "Тархун",
-            "img": "/img/menu/bar_craft/tarhun.jpg",
-            "price": 56,
-            "weight": 500,
-            "description": "Фирменный напиток Тархун в стеклянной бутылке."
-          }
-        ]
+      "blu-energy-mojito": {
+        "title": "BLU MOJITO ENERGY DRINK",
+        "img": "/img/menu/bar_drinks/blu_mojito_energy.jpg",
+        "price": 22,
+        "weight": 250,
+        "description": "Неудержимо свежий Энергетический напиток, это на 100% Безалкогольное Мохито с энергией от BLU Drink. Мягкий вкус и отсутствие неприятного послевкусия."
+      }
+    },
+    "bar-juice": {
+      "rich-cherry": {
+        "title": "Сок Rich Вишневый",
+        "img": "/img/menu/bar_juice/rich_cherry.jpg",
+        "price": 34,
+        "weight": 1000,
+        "description": "Вишневый сок Rich"
+      },
+      "rich-apple": {
+        "title": "Сок Rich Яблочный",
+        "img": "/img/menu/bar_juice/rich_apple.jpg",
+        "price": 34,
+        "weight": 1000,
+        "description": "Яблочный сок Rich"
+      },
+      "rich-multi": {
+        "title": "Сок Rich Мультифрут",
+        "img": "/img/menu/bar_juice/rich_multi.jpg",
+        "price": 34,
+        "weight": 1000,
+        "description": "Мультифрут сок Rich"
+      },
+      "rich-tomato": {
+        "title": "Сок Rich Томатный",
+        "img": "/img/menu/bar_juice/rich_tomato.jpg",
+        "price": 34,
+        "weight": 1000,
+        "description": "Томатный сок Rich"
+      }
+    },
+    "bar-beer": {
+      "baltica-zero": {
+        "title": "Балтика '0'",
+        "img": "/img/menu/bar_beer/baltica_zero.jpg",
+        "price": 20,
+        "weight": 500,
+        "description": "Его главная особенность в том, что Zero по вкусу как классическая Coca-Cola, но не содержит сахара и калорий."
+      },
+      "stella-zero": {
+        "title": "Stella Artois Безалкогольное 0,5",
+        "img": "/img/menu/bar_beer/stella_zero.jpg",
+        "price": 32,
+        "weight": 500,
+        "description": "Пиво Stella Artois Безалкогольное. Стекло."
+      }
+    },
+    "bar-craft": {
+      "orange": {
+        "title": "Оранж",
+        "img": "/img/menu/bar_craft/orange.jpg",
+        "price": 48,
+        "weight": 500,
+        "description": "Фирменный напиток Оранж в стеклянной бутылке."
+      },
+      "uzvar": {
+        "title": "Узвар",
+        "img": "/img/menu/bar_craft/uzvar.jpg",
+        "price": 39,
+        "weight": 500,
+        "description": "Фирменный напиток Узвар в стеклянной бутылке."
+      },
+      "ginger": {
+        "title": "Имбирно-облепиховый напиток",
+        "img": "/img/menu/bar_craft/ginger.jpg",
+        "price": 62,
+        "weight": 500,
+        "description": "Фирменный Имбирно-облепиховый напиток в стеклянной бутылке."
+      },
+      "tarhun": {
+        "title": "Тархун",
+        "img": "/img/menu/bar_craft/tarhun.jpg",
+        "price": 56,
+        "weight": 500,
+        "description": "Фирменный напиток Тархун в стеклянной бутылке."
       }
     }
   }
