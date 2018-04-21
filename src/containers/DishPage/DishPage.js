@@ -10,11 +10,15 @@ class DishPage extends Component {
     currentDish: {},
     currentTitle: '',
     currentCategory: '',
+    numberOfItems: 1,
+    priceOfItem: 80,
+    totalPrice: 0,
     isLoading: true
   };
 
   componentWillMount() {
     this.getCurrentCategory();
+    this.calculateTotalPrice();
   }
 
   componentDidMount() {
@@ -43,6 +47,23 @@ class DishPage extends Component {
       });
   }
 
+  changeNumberOfItems = (type) => {
+    let oldNumberItems = this.state.numberOfItems;
+    if (type) {
+      oldNumberItems++;
+      this.setState({numberOfItems: oldNumberItems});
+    } else {
+      oldNumberItems--;
+      this.setState({numberOfItems: oldNumberItems});
+    }
+    this.calculateTotalPrice();
+  };
+
+  calculateTotalPrice() {
+    let newPrice = this.state.priceOfItem * this.state.numberOfItems;
+    this.setState({totalPrice: newPrice});
+  }
+
   render() {
     let dishContent = null;
     if (this.state.isLoading) {
@@ -50,7 +71,11 @@ class DishPage extends Component {
     } else {
       dishContent = <div className={classes.DishPage}>
         <h1>{this.state.currentDish.title}</h1>
-        <DishDetails />
+        <DishDetails
+          itemsNumber={this.state.numberOfItems}
+          totalPrice={this.state.totalPrice}
+          changeItemsNumber={this.changeNumberOfItems}
+        />
       </div>
     }
     return (

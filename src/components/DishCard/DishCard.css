@@ -32,6 +32,10 @@
     padding: 12px 16px;
 }
 
+.DishInfo a {
+    text-decoration: none;
+}
+
 .DishInfo p {
     margin-bottom: 8px;
 }

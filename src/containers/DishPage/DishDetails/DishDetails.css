@@ -20,3 +20,87 @@
 .InfoContainer {
     width: 54%;
 }
+
+.ChooseCountry span {
+    line-height: 50px;
+    font-weight: 600;
+    margin-left: 12px;
+    font-size: 18px;
+}
+
+.InfoButton {
+    background-color: #fff;
+    margin-top: 8px;
+    margin-left: 32px;
+    padding: 10px 8px;
+    text-align: center;
+    color: #37af5a;
+    border: 1px solid #37af5a;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    transition: .4s;
+}
+
+.InfoButton:hover {
+    background-color: #37af5a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.InfoCounter {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    width: 30%;
+    height: 40px;
+}
+
+.InfoCounter div {
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    border: 1px solid #303030;
+}
+
+.InfoCounter div:hover {
+    background-color: #37af5a;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #37af5a;
+}
+
+.InfoCounter input {
+    width: 36px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.OrderButton {
+    width: 30%;
+    height: 40px;
+    background-color: #37af5a;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.OrderButton:hover {
+    cursor: pointer;
+}
+
+.QuantityInfo {
+    width: 30%;
+    margin-left: 32px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.PurchaseInfoBlock {
+    display: flex;
+    margin-top: 20px;
+}
