@@ -11,8 +11,17 @@ class DishPage extends Component {
     currentTitle: '',
     currentCategory: '',
     numberOfItems: 1,
-    priceOfItem: 80,
+    priceOfItem: 0,
     totalPrice: 0,
+    convertedIngredientArray: [],
+    ingredientImagesMap: new Map([
+      ['Моцарелла', 'mozarella'],
+      ['Орегано', 'oregano'],
+      ['Томаты', 'tomatoes'],
+      ['Куриное филе', 'chicken-filet'],
+      ['Томатный соус', 'tomato-sous'],
+      ['Салями', 'salami'],
+    ]),
     isLoading: true
   };
 
@@ -35,12 +44,22 @@ class DishPage extends Component {
   getCurrentDish() {
     let localCategory = this.state.currentCategory;
     let localTitle = this.state.currentTitle;
+    let ingredientArray = [];
     let composedUrl = `https://food-delivery-react.firebaseio.com/dishes/${localCategory}/${localTitle}.json`;
     axios.get(composedUrl)
       .then(response => {
         console.log(response);
         this.setState({currentDish: response.data});
+        this.setState({priceOfItem: response.data.price});
         this.setState({isLoading: false});
+        ingredientArray = response.data.ingredients.map(item =>  {
+          return ({
+              "imgPath": `/img/ingredients/${this.state.ingredientImagesMap.get(item)}.jpg`,
+              "title": item
+            }
+          )
+        });
+        this.setState({convertedIngredientArray: ingredientArray});
       })
       .catch( error => {
         console.log(error);
@@ -72,6 +91,8 @@ class DishPage extends Component {
       dishContent = <div className={classes.DishPage}>
         <h1>{this.state.currentDish.title}</h1>
         <DishDetails
+          dish={this.state.currentDish}
+          ingredients={this.state.convertedIngredientArray}
           itemsNumber={this.state.numberOfItems}
           totalPrice={this.state.totalPrice}
           changeItemsNumber={this.changeNumberOfItems}

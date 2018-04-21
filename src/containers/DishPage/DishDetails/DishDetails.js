@@ -6,7 +6,7 @@ import DishIngredients from './DishIngredients/DishIngredients';
 const dishDetails = (props) => (
   <div className={classes.DishDetails}>
       <div className={classes.ImageContainer}>
-        <img src="/img/menu/pizza/four-cheese.jpg" alt="01"/>
+        <img src={props.dish.img} alt="01"/>
       </div>
       <div className={classes.InfoContainer}>
         <div className={classes.ChooseCountry}>
@@ -38,7 +38,9 @@ const dishDetails = (props) => (
             <span>грн</span>
           </div>
         </div>
-        <DishIngredients />
+        <DishIngredients
+          ingredients={props.ingredients}
+        />
       </div>
     </div>
 );
