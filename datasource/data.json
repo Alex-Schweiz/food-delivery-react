@@ -3,24 +3,28 @@
     "1": [
       {
         "title": "Супер сыр",
+        "slug": "super-cheese",
         "img": "/img/menu/pizza/super-cheese.jpg",
         "numberOfPieces": 8,
         "price": 107,
         "description": "Нежная пицца со сливочным соусом, томатами, сыром моцарелла, пармезаном, охотничьими сосисками, рукколой, паприкой и орегано."
       }, {
         "title": "Мексикано",
+        "slug": "mexicano",
         "img": "/img/menu/pizza/mexicano.jpg",
         "numberOfPieces": 8,
         "price": 97,
         "description": "Ароматная пицца с запеченной курицей, томатами, ветчиной, сыром моцарелла, кукурузой, маслинами, томатным соусом, белым кунжутом и орегано."
       }, {
         "title": "4 сезона",
+        "slug": "four-seasons",
         "img": "/img/menu/pizza/four-seasons.jpg",
         "numberOfPieces": 8,
         "price": 116,
         "description": "Пицца, сочетающая в себе 4 разных ярких вкуса. В составе начинки: куриное филе, кукуруза, ананас, кальмары, мидии, снежный краб, бекон, шампиньоны, репчатый лук, томаты, свинина и сыр моцаре..."
       }, {
         "title": "4 мяса",
+        "slug": "four-meats",
         "img": "/img/menu/pizza/four-meats.jpg",
         "numberOfPieces": 8,
         "price": 123,
@@ -331,6 +335,7 @@
       "four-cheese": {
         "title": "4 сыра",
         "img": "/img/menu/pizza/four-cheese.jpg",
+        "slug": "four-cheese",
         "numberOfPieces": 8,
         "price": 117,
         "description": "Пицца со сливочным соусом и четырьмя сортами сыра: моцареллой, голландским, пармезаном, дор-блю и помидорами черри, приправленная итальянскими травами.",
@@ -346,6 +351,7 @@
       },
       "super-meat": {
         "title": "Супер Мясо",
+        "slug": "super-meat",
         "img": "/img/menu/pizza/super-meat.jpg",
         "numberOfPieces": 8,
         "price": 126,
@@ -362,6 +368,7 @@
       },
       "pepperoni": {
         "title": "Пепперони",
+        "slug": "pepperoni",
         "img": "/img/menu/pizza/pepperoni.jpg",
         "numberOfPieces": 8,
         "price": 127,
@@ -378,6 +385,7 @@
       },
       "spicy-meat": {
         "title": "Острое мясо",
+        "slug": "spicy-meat",
         "img": "/img/menu/pizza/spicy-meat.jpg",
         "numberOfPieces": 8,
         "price": 112,

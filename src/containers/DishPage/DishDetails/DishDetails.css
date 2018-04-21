@@ -2,15 +2,15 @@
     background-color: #fff;
     margin: 8px;
     padding: 8px;
-    height: 600px;
     display: flex;
+    box-shadow: 0 1px 3px rgba(0,0,0,.22);
 }
 
 .ImageContainer {
     width: 45%;
-    height: 100%;
+    top: 40%;
     display: flex;
-    border-right: 1px solid #000000;
+    border-right: 1px solid rgba(0,0,0,.3);
 }
 
 .ImageContainer img {

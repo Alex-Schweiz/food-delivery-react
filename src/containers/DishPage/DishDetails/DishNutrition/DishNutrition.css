@@ -1,0 +1,21 @@
+.DishNutrition {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 20px 0 0 10px;
+}
+
+.NutritionItem {
+    color: #37af5a;
+    font-size: 12px;
+    padding: 12px 0;
+    width: 25%;
+    text-align: center;
+    transition: .3s;
+}
+
+.NutritionItem:hover {
+    color: #fff;
+    background-color: #37af5a;
+    cursor: pointer;
+}

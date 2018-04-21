@@ -2,6 +2,7 @@ import React from 'react';
 
 import classes from './DishDetails.css';
 import DishIngredients from './DishIngredients/DishIngredients';
+import DishNutrition from './DishNutrition/DishNutrition';
 
 const dishDetails = (props) => (
   <div className={classes.DishDetails}>
@@ -40,6 +41,9 @@ const dishDetails = (props) => (
         </div>
         <DishIngredients
           ingredients={props.ingredients}
+        />
+        <DishNutrition
+          nutrition={props.dish.nutrition}
         />
       </div>
     </div>
