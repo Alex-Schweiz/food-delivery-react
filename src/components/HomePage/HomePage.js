@@ -1,13 +1,13 @@
 import React from 'react';
 
 import SliderShow from '../SliderShow/SliderShow';
-import Recommendation from '../ChiefRecommends/Recommendation/Recommendation';
+import ChiefRecommends from '../ChiefRecommends/ChiefRecommends';
 import ReviewsHome from '../ReviewsHome/ReviewsHome';
 
 const homePage = () => (
   <div>
     <SliderShow />
-    <Recommendation />
+    <ChiefRecommends />
     <ReviewsHome />
   </div>
 );

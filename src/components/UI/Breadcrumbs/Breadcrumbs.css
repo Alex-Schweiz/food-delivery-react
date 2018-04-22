@@ -4,23 +4,10 @@
     list-style: none;
 }
 
-.Breadcrumbs li {
-    display: inline;
-    padding-left: 8px;
-    font-size: 14px;
-}
-
-.BreadcrumbAnchor {
+.Breadcrumbs a {
+    text-decoration: none;
     color: #37af5a;
-    text-decoration: none;
+    margin-right: 16px;
 }
 
-.BreadcrumbActive {
-    color: #6f6f6f;
-    text-decoration: none;
-}
-
-.BreadcrumbAnchor:hover {
-    text-decoration: underline;
-}
 

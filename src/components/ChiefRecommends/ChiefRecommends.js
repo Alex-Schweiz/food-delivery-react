@@ -1,11 +1,11 @@
 import React, { Component }  from 'react';
 
-import classes from './Recommendation.css';
+import classes from './ChiefRecommends.css';
 import RecommendationTab from './RecommendationTab/RecommendationTab';
 import TabContent from './TabContent/TabContent';
-import axios from '../../../axios-delivery';
+import axios from '../../axios-delivery';
 
-class Recommendation extends Component {
+class ChiefRecommends extends Component {
   state = {
     tabCategories: [
       {
@@ -83,4 +83,4 @@ class Recommendation extends Component {
     )
   }
 }
-export default Recommendation;
+export default ChiefRecommends;
