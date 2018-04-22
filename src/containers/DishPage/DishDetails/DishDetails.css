@@ -62,7 +62,8 @@
     text-align: center;
     line-height: 40px;
     vertical-align: middle;
-    border: 1px solid #303030;
+    border: 1px solid rgba(0,0,0,.18);
+    transition: .4s;
 }
 
 .InfoCounter div:hover {

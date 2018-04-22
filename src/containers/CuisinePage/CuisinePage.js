@@ -23,14 +23,27 @@ class CuisinePage extends Component {
     this.getCurrentCuisine();
   }
 
+  componentWillReceiveProps(nextProps) {
+    if (this.props.match.params.cuisineType !== nextProps.match.params.cuisineType) {
+      this.getCurrentCuisine(nextProps.match.params.cuisineType);
+    }
+  }
+
   componentDidMount() {
     this.setState({isLoading: true});
     this.getCurrentCategories();
   }
 
-  getCurrentCuisine() {
-    let macthingCategory = this.props.match.params.cuisineType;
-    this.setState({currentCuisine: macthingCategory});
+  getCurrentCuisine(newProps) {
+    let matchingCategory = '';
+    if (newProps) {
+      matchingCategory = newProps;
+    } else {
+      matchingCategory = this.props.match.params.cuisineType;
+    }
+    this.setState({currentCuisine: matchingCategory}, () => {
+      this.getCurrentCategories();
+    });
   }
 
   getCurrentCategories() {

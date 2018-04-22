@@ -75,7 +75,9 @@ class DishPage extends Component {
       .then(response => {
         console.log(response);
         this.setState({currentDish: response.data});
-        this.setState({priceOfItem: response.data.price});
+        this.setState({priceOfItem: response.data.price}, () => {
+          this.calculateTotalPrice();
+        });
         this.setState({isLoading: false});
         ingredientArray = response.data.ingredients.map(item =>  {
           return ({
@@ -95,12 +97,12 @@ class DishPage extends Component {
     let oldNumberItems = this.state.numberOfItems;
     if (type) {
       oldNumberItems++;
-      this.setState({numberOfItems: oldNumberItems});
     } else {
       oldNumberItems--;
-      this.setState({numberOfItems: oldNumberItems});
     }
-    this.calculateTotalPrice();
+    this.setState({numberOfItems: oldNumberItems}, () => {
+      this.calculateTotalPrice();
+    });
   };
 
   calculateTotalPrice() {

@@ -6,6 +6,10 @@
     margin-right: 12px;
 }
 
+.CuisineCategory a {
+    text-decoration: none;
+}
+
 .CuisineCategory:hover {
     cursor: pointer;
 }
