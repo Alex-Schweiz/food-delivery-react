@@ -41,14 +41,27 @@ class menuPage extends Component {
     this.getCurrentCategory();
   }
 
+  componentWillReceiveProps(nextProps) {
+    if (this.props.match.params.dishCategory !== nextProps.match.params.dishCategory) {
+      this.getCurrentCategory(nextProps.match.params.dishCategory);
+    }
+  }
+
   componentDidMount() {
     this.setState({isLoading: true});
     this.getCurrentDishes();
   }
 
-  getCurrentCategory() {
-    let macthingCategory = this.props.match.params.dishCategory;
-    this.setState({currentCategory: macthingCategory});
+  getCurrentCategory(newProps) {
+    let matchingCategory = '';
+    if (newProps) {
+      matchingCategory = newProps;
+    } else {
+      matchingCategory = this.props.match.params.dishCategory;
+    }
+    this.setState({currentCategory: matchingCategory}, () => {
+      this.getCurrentDishes();
+    });
   }
 
   setDefaultDishes() {

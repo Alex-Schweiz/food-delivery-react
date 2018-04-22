@@ -14,7 +14,9 @@ function cuisineCategory(props) {
         to={getProperUrl(props.categoryContent.slug)}
       >
         <img src={props.categoryContent.img} alt="01"/>
-        <p className={classes.CuisineCategoryName}>{props.categoryContent.title}</p>
+        <div className={classes.CuisineCategoryName}>
+          <p>{props.categoryContent.title}</p>
+        </div>
       </Link>
     </div>
   )
