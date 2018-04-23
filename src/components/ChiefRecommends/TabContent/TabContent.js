@@ -8,6 +8,7 @@ const tabContent = (props) => (
     {props.dishes.map((dish,i) => (
       <DishCard
         key={i}
+        menuCategory={props.activeCategory}
         dishContent={dish} />
     ))}
     <div className={classes.TabShowMore}>

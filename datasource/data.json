@@ -1,6 +1,6 @@
 {
   "chiefRecommendations" : {
-    "1": [
+    "pizza": [
       {
         "title": "Супер сыр",
         "slug": "super-cheese",
@@ -31,49 +31,57 @@
         "description": "Мясная пицца с томатным соусом, копченым куриным филе, охотничьими сосисками, салями, томатами, пармезаном, ветчиной и сыром моцарелла, приправленная итальянскими травами."
       }
     ],
-    "2": [
+    "desserts": [
       {
         "title": "Наполеон",
+        "slug": "napoleon",
         "img": "/img/menu/desserts/napoleon.jpg",
         "price": 32,
         "description": "Торт \"Наполеон\", приготовленный по классическому рецепту, получается легким, нежным, он просто тает во рту."
       }, {
         "title": "Персиковый сырный пирог",
+        "slug": "peach-cake",
         "img": "/img/menu/desserts_menu/peach_cake.jpg",
         "price": 46,
         "description": "Нежный сырный пирог с печеньем, крем сыром, сливками, сахаром, желтком яичным, ванильным сахаром, желатином, коньяком и персиком."
       }, {
         "title": "Классический сырный пирог",
+        "slug": "classical-cheese-cake",
         "img": "/img/menu/desserts_menu/classical_cheese_cake.jpg",
         "price": 46,
         "description": "Нежный пирог с крем сыром, печеньем, сметаной, сливками, сахаром, меланжем яичным пастеризованным, ванильным сахаром."
       }, {
         "title": "Шоколадный сырный пирог",
+        "slug": "chocolate-cheese-cake",
         "img": "/img/menu/desserts_menu/chocolate_cheese_cake.jpg",
         "price": 47,
         "description": "Нежный пирог с крем сыром, печеньем, сливками, сахаром, желтком яичным пастеризованным, ванильным сахаром, желатином, коньяком, шоколадной глазурью."
       }
     ],
-    "3": [
+    "bar-craft": [
       {
         "title": "Оранж",
         "img": "/img/menu/bar/orange.jpg",
         "price": 48,
+        "slug": "orange",
         "description": "Фирменный напиток Оранж в стеклянной бутылке."
       }, {
-        "title": "Узвар",
+        "title": "uzvar",
         "img": "/img/menu/bar/uzvar.jpg",
         "price": 39,
+        "slug": "chocolate-cheese-cake",
         "description": "Фирменный напиток Узвар в стеклянной бутылке"
       }, {
         "title": "Имбирно-облепиховый напиток",
         "img": "/img/menu/bar/ginger-oblepikha.jpg",
         "price": 62,
+        "slug": "ginger",
         "description": "Фирменный имбирно-облепиховый напиток в стеклянной бутылке."
       }, {
         "title": "Тархун",
         "img": "/img/menu/bar/tarhun.jpg",
         "price": 56,
+        "slug": "tarhun",
         "description": "Фирменный напиток Тархун в стекляной бутылке"
       }
     ],
@@ -123,9 +131,10 @@
         "description": "Овощной ролл со свежим огурцом, помидорами, сладким перцем, листьями салата латук и авокадо."
       }
     ],
-    "6": [
+    "bbq-wings": [
       {
         "title": "Крылышки BBQ (450 грамм)",
+        "slug": "bbq-wings",
         "img": "/img/menu/bbq/bbq-wings.jpg",
         "price": 111,
         "description": "Обжаренное куриное крыло под соусом BBQ"

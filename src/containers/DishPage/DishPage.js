@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import classes from './DishPage.css';
-import Breadcrumbs from '../../components/UI/Breadcrumbs/Breadcrumbs';
+/*import Breadcrumbs from '../../components/UI/Breadcrumbs/Breadcrumbs';*/
 import DishDetails from './DishDetails/DishDetails';
 import axios from "../../axios-delivery";
 
@@ -141,7 +141,7 @@ class DishPage extends Component {
     }
     return (
       <div className={classes.DishPage}>
-        <Breadcrumbs/>
+        {/*<Breadcrumbs/>*/}
         {dishContent}
       </div>
     )

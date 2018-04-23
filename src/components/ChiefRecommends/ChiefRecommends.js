@@ -9,13 +9,13 @@ class ChiefRecommends extends Component {
   state = {
     tabCategories: [
       {
-        id: 1,
+        id: "pizza",
         title: "Пицца"
       }, {
-        id: 2,
+        id: "desserts",
         title: "Десерты"
       }, {
-        id: 3,
+        id: "bar-craft",
         title: "Бар"
       }, {
         id: 4,
@@ -24,7 +24,7 @@ class ChiefRecommends extends Component {
         id: 5,
         title: "Японская кухня"
       }, {
-        id: 6,
+        id: "bbq-wings",
         title: "Гриль BBQ"
       }, {
         id: 7,
@@ -34,14 +34,14 @@ class ChiefRecommends extends Component {
         title: "Постное меню"
       }
     ],
-    activeCategory: 1,
+    activeCategory: "pizza",
     currentTabContent: [],
     isLoading: true
   };
 
   componentWillMount() {
     this.setState({isLoading: true});
-    this.getCurrentTabContent(1);
+    this.getCurrentTabContent(this.state.activeCategory);
   }
 
   getCurrentTabContent(id) {
@@ -77,7 +77,8 @@ class ChiefRecommends extends Component {
         <h2>Шеф-повар рекомендует</h2>
         <RecommendationTab
           selectedCategory={this.selectedCategoryHandler}
-          categories={this.state.tabCategories} />
+          categories={this.state.tabCategories}
+          activeCategory={this.state.activeCategory}/>
         {tabDynamicContent}
       </div>
     )

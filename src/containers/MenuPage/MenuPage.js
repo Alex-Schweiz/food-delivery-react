@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import classes from './MenuPage.css';
-import Breadcrumbs from '../../components/UI/Breadcrumbs/Breadcrumbs';
+/*import Breadcrumbs from '../../components/UI/Breadcrumbs/Breadcrumbs';*/
 import DishCard from '../../components/DishCard/DishCard';
 import axios from "../../axios-delivery";
 
@@ -126,7 +126,7 @@ class menuPage extends Component {
     }
     return (
       <div className={classes.MenuPage}>
-        <Breadcrumbs/>
+        {/*<Breadcrumbs/>*/}
         <h1>{this.state.dishesMap.get(this.props.match.params.dishCategory)}</h1>
         <div className={classes.MenuSortablePanel}>
           <p>Сортировать по</p>
