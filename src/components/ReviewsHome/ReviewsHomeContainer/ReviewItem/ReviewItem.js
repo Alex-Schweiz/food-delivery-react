@@ -17,7 +17,7 @@ const reviewItem = (props) => (
     </blockquote>
     <div className={classes.ReviewAnswer}>
       <blockquote>
-        <img src="/img/logo3.png" alt="03" width="54px" height="48px"/>
+        <img src="/img/logo.png" alt="03" width="54px" height="48px"/>
         <p>Юрий, рады что Вам всё понравилось!</p>
       </blockquote>
     </div>
