@@ -119,6 +119,7 @@ class menuPage extends Component {
         {this.state.currentDishes.map((dish,i) => (
           <DishCard
             key={i}
+            menuCategory={this.state.currentCategory}
             dishContent={dish} />
         ))}
       </div>

@@ -5,7 +5,7 @@ import classes from './DishCard.css';
 
 function dishCard(props) {
   function getProperUrl(slug) {
-    return `/dish/pizza/${slug}`
+    return `/dish/${props.menuCategory}/${slug}`
   }
   return (
     <div className={classes.DishCard}>
