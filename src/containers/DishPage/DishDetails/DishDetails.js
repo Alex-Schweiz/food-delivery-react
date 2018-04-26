@@ -39,12 +39,8 @@ const dishDetails = (props) => (
             <span>грн</span>
           </div>
         </div>
-        <DishIngredients
-          ingredients={props.ingredients}
-        />
-        <DishNutrition
-          nutrition={props.dish.nutrition}
-        />
+        {props.ingredients ? <DishIngredients ingredients={props.ingredients}/> : null}
+        {props.dish.nutrition ? <DishNutrition nutrition={props.dish.nutrition}/> : null}
       </div>
     </div>
 );

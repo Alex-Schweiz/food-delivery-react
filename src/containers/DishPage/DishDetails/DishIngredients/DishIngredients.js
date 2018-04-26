@@ -4,7 +4,7 @@ import classes from './DishIngredients.css';
 
 const dishIngredients = (props) => (
   <div className={classes.DishIngredients}>
-    <h2>Ингредиенты</h2>
+    {props.iningredients ? <h2>Ингредиенты</h2> : null}
     <div className={classes.IngredientsContainer}>
       {props.ingredients.map((ingredient, i) => (
         <div className={classes.IngredientItem}>

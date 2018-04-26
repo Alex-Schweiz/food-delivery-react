@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import classes from './DishPage.css';
-/*import Breadcrumbs from '../../components/UI/Breadcrumbs/Breadcrumbs';*/
+import Breadcrumbs from '../../components/UI/Breadcrumbs/Breadcrumbs';
 import DishDetails from './DishDetails/DishDetails';
 import axios from "../../axios-delivery";
 
@@ -59,6 +59,11 @@ class DishPage extends Component {
       ['Имбирь маринованный', 'ginger-smoked'],
       ['Яйцо', 'egg'],
       ['Майонез', 'mayonaise'],
+      ['Зеленый лук', 'green_onion'],
+      ['Болгарский перец', 'bolgarian_pepper'],
+      ['Морковь', 'carrot'],
+      ['Лапша Удон', 'pasta_udon'],
+      ['Соус тонкацу', 'sous_tonkatsu'],
     ]),
     isLoading: true
   };
@@ -141,7 +146,7 @@ class DishPage extends Component {
     }
     return (
       <div className={classes.DishPage}>
-        {/*<Breadcrumbs/>*/}
+        <Breadcrumbs/>
         {dishContent}
       </div>
     )

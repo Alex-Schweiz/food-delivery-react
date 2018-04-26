@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import classes from './CuisinePage.css';
-/*import Breadcrumbs from '../../components/UI/Breadcrumbs/Breadcrumbs';*/
+import Breadcrumbs from '../../components/UI/Breadcrumbs/Breadcrumbs';
 import CuisineCategory from '../../components/CuisineCategory/CuisineCategory';
 import axios from "../../axios-delivery";
 
@@ -76,7 +76,7 @@ class CuisinePage extends Component {
     }
     return (
       <div className={classes.CuisinePage}>
-        {/*<Breadcrumbs/>*/}
+        <Breadcrumbs/>
         <h1>{this.state.categoryMap.get(this.props.match.params.cuisineType)}</h1>
         {cuisineContent}
       </div>
