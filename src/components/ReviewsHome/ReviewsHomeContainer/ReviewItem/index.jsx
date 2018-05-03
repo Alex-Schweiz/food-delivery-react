@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './ReviewItem.css';
 
-const reviewItem = (props) => (
+const ReviewItem = () => (
   <div className={classes.ReviewItem}>
     <h3>Name</h3>
     <p>3 АПРЕЛЯ 2018 08:50:11</p>
@@ -24,4 +24,4 @@ const reviewItem = (props) => (
   </div>
 );
 
-export default reviewItem;
+export default ReviewItem;

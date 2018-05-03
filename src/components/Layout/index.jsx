@@ -2,15 +2,15 @@ import React from 'react';
 import { Route } from "react-router-dom";
 
 import Aux from '../../hoc/Auxx/Auxx';
-import Header from '../Header/Header';
-import RedMenu from '../../containers/RedMenu/RedMenu';
-import HomePage from '../HomePage/HomePage';
-import MenuPage from '../../containers/MenuPage/MenuPage';
-import CuisinePage from '../../containers/CuisinePage/CuisinePage';
-import DishPage from '../../containers/DishPage/DishPage';
-import Footer from '../Footer/Footer';
+import Header from '../Header';
+import RedMenu from '../../containers/RedMenu';
+import HomePage from '../HomePage';
+import MenuPage from '../../containers/MenuPage';
+import CuisinePage from '../../containers/CuisinePage';
+import DishPage from '../../containers/DishPage';
+import Footer from '../Footer';
 
-const layout = () => (
+const Layout = () => (
   <Aux>
     <Header />
     <RedMenu />
@@ -22,4 +22,4 @@ const layout = () => (
   </Aux>
 );
 
-export default layout;
+export default Layout;

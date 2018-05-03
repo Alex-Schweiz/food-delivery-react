@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 import classes from './Breadcrumbs.css';
 
-const breadCrumbs = (props) => (
+const BreadCrumbs = () => (
   <ul className={classes.Breadcrumbs}>
     <Link
       to="/"
@@ -14,4 +14,4 @@ const breadCrumbs = (props) => (
   </ul>
 );
 
-export default breadCrumbs;
+export default BreadCrumbs;

@@ -1,10 +1,10 @@
 import React from 'react';
 
 import classes from './DishDetails.css';
-import DishIngredients from './DishIngredients/DishIngredients';
-import DishNutrition from './DishNutrition/DishNutrition';
+import DishIngredients from './DishIngredients';
+import DishNutrition from './DishNutrition';
 
-const dishDetails = (props) => (
+const DishDetails = (props) => (
   <div className={classes.DishDetails}>
       <div className={classes.ImageContainer}>
         <img src={props.dish.img} alt="01"/>
@@ -45,4 +45,4 @@ const dishDetails = (props) => (
     </div>
 );
 
-export default dishDetails;
+export default DishDetails;

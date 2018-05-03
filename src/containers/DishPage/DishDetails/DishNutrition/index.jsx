@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './DishNutrition.css';
 
-const dishNutrition = (props) => (
+const DishNutrition = (props) => (
   <div className={classes.DishNutrition}>
     <div className={classes.NutritionItem}>
       <span>Калорийность: {props.nutrition.calories}</span>
@@ -19,4 +19,4 @@ const dishNutrition = (props) => (
   </div>
 );
 
-export default dishNutrition;
+export default DishNutrition;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classes from './TabContent.css';
-import DishCard from '../../DishCard/DishCard'
+import DishCard from '../../DishCard/index'
 
 const tabContent = (props) => (
   <div className={classes.TabContent}>
@@ -9,7 +9,8 @@ const tabContent = (props) => (
       <DishCard
         key={i}
         menuCategory={props.activeCategory}
-        dishContent={dish} />
+        dishContent={dish}
+      />
     ))}
     <div className={classes.TabShowMore}>
       <button>Перейти к категории</button>

@@ -1,9 +1,9 @@
 import React from 'react';
 
 import classes from './ReviewsHome.css';
-import ReviewsHomeContainer from './ReviewsHomeContainer/ReviewsHomeContainer';
+import ReviewsHomeContainer from './ReviewsHomeContainer';
 
-const reviewsHome = () => (
+const ReviewsHome = () => (
   <div className={classes.ReviewsHome}>
     <div>
       <h2>Отзывы</h2>
@@ -16,4 +16,4 @@ const reviewsHome = () => (
   </div>
 );
 
-export default reviewsHome;
+export default ReviewsHome;

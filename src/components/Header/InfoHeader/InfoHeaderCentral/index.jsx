@@ -3,7 +3,7 @@ import React from 'react';
 import classes from './InfoHeaderCentral.css';
 import Aux from '../../../../hoc/Auxx/Auxx';
 
-const infoHeaderCentral = () => (
+const InfoHeaderCentral = () => (
   <Aux>
     <div className={classes.InfoCentral}>
       <div className={classes.InfoDiscount}>
@@ -31,4 +31,4 @@ const infoHeaderCentral = () => (
 
 );
 
-export default infoHeaderCentral;
+export default InfoHeaderCentral;

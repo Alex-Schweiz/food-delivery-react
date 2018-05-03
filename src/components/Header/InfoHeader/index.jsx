@@ -2,11 +2,11 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 import classes from './InfoHeader.css';
-import InfoHeaderCentral from './InfoHeaderCentral/InfoHeaderCentral';
-import InfoBasket from './InfoBasket/InfoBasket';
-import InfoButton from './InfoButton/InfoButton';
+import InfoHeaderCentral from './InfoHeaderCentral';
+import InfoBasket from './InfoBasket';
+import Index from './InfoButton';
 
-const infoHeader = () => (
+const InfoHeader = () => (
   <div className={classes.InfoHeader}>
     <div className={classes.InfoLogo}>
       <Link to="/">
@@ -16,11 +16,11 @@ const infoHeader = () => (
     <InfoHeaderCentral />
     <div className={classes.InfoCart}>
       <InfoBasket />
-      <InfoButton text="Перезвоните мне"/>
-      <InfoButton text="Личный кабинет"/>
-      <InfoButton text="Горячая линия"/>
+      <Index text="Перезвоните мне"/>
+      <Index text="Личный кабинет"/>
+      <Index text="Горячая линия"/>
     </div>
   </div>
 );
 
-export default infoHeader;
+export default InfoHeader;

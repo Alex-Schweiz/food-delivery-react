@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './TopLinks.css';
 
-const topLinks = () => (
+const TopLinks = () => (
   <div className={classes.TopLinks}>
     <a href="/">О нас</a>
     <a href="/">Акции</a>
@@ -14,4 +14,4 @@ const topLinks = () => (
   </div>
 );
 
-export default topLinks;
+export default TopLinks;

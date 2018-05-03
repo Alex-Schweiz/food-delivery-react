@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 import classes from './DishCard.css';
 
-function dishCard(props) {
+const DishCard = (props) => {
   function getProperUrl(slug) {
     return `/dish/${props.menuCategory}/${slug}`
   }
@@ -30,4 +30,4 @@ function dishCard(props) {
   )
 };
 
-export default dishCard;
+export default DishCard;

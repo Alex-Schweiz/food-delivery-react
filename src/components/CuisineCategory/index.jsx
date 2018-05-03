@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 import classes from './CuisineCategory.css';
 
-function cuisineCategory(props) {
+export default function cuisineCategory(props) {
   function getProperUrl(slug) {
     return `/menu/${slug}`
   }
+
   return (
     <div className={classes.CuisineCategory}>
       <Link
@@ -22,4 +23,3 @@ function cuisineCategory(props) {
   )
 }
 
-export default cuisineCategory;

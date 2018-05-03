@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './DishIngredients.css';
 
-const dishIngredients = (props) => (
+const DishIngredients = (props) => (
   <div className={classes.DishIngredients}>
     {props.iningredients ? <h2>Ингредиенты</h2> : null}
     <div className={classes.IngredientsContainer}>
@@ -17,4 +17,4 @@ const dishIngredients = (props) => (
   </div>
 );
 
-export default dishIngredients;
+export default DishIngredients;

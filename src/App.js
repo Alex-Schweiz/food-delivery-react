@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter } from "react-router-dom";
 
 import classes from './App.css';
 
-import Layout from './components/Layout/Layout';
+import Layout from './components/Layout';
 
-class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
@@ -16,5 +16,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

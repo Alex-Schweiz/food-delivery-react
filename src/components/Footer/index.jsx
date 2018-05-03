@@ -2,7 +2,7 @@ import React from 'react';
 
 import classes from './Footer.css';
 
-const footer = () => (
+const Footer = () => (
   <div className={classes.Footer}>
     <div className={classes.FooterLogo}>
       <img src="/img/logo.png" alt="03"/>
@@ -29,8 +29,7 @@ const footer = () => (
       <p>Бесплатная доставка от 150 грн</p>
       <p>Минимальный заказ 110 грн</p>
     </div>
-
   </div>
 );
 
-export default footer;
+export default Footer;
